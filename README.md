@@ -76,6 +76,7 @@ dependencies {
 ```
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg)|
 |--|
+|textStyle:bold, textSize:16dp, layout_marginTop:10dp|
 ---
 
 ```
