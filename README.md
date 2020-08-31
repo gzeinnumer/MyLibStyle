@@ -69,7 +69,6 @@ dependencies {
 ---
 
 **MyTextHeader.**
-Code:
 ```xml
 <TextView
     style="@style/MyTextHeader"
@@ -83,8 +82,7 @@ textSize:16dp
 layout_marginTop:10dp|
 <br>
 
-**MyTextHeader.**
-Code:
+**MyTextContent.**
 ```xml
 <TextView
     style="@style/MyTextContent"
@@ -96,6 +94,209 @@ Preview:
 |textStyle:bold 
 textSize:16dp|
 <br>
+
+**MyTextInputLayoutOutlinedBox.**
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/MyTextInputLayoutOutlinedBox"
+    android:hint="MyTextInputLayoutOutlinedBox"
+    app:endIconMode="password_toggle">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_1"
+        style="@style/MyTextInputEditText"
+        android:inputType="textPassword" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/3.MyTextIputLayoutOutlinedBox_Pass.jpg)|
+|--|
+|TextInputLayout->
+layout_marginTop:10dp 
+MyTextInputEditText->
+textSize:16dp|
+<br>
+
+**MyTextInputLayoutOutlinedBoxNext.**
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/MyTextInputLayoutOutlinedBoxNext"
+    android:hint="MyTextInputLayoutOutlinedBoxNext">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_2"
+        style="@style/MyTextInputEditText" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/4.MyTextIputLayoutOutlinedBoxNext.jpg)|
+|--|
+|TextInputLayout->
+layout_marginTop:10dp 
+MyTextInputEditText->
+textSize:16dp|
+<br>
+
+**MyTextInputLayoutOutlinedBoxNext.**
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/MyTextInputLayoutOutlinedBoxNext"
+    android:hint="MyTextInputLayoutOutlinedBoxNext*"
+    android:textColorHint="@color/red_500">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_7"
+        style="@style/MyTextInputEditText" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/5.MyTextIputLayoutOutlinedBoxNext_Man.jpg)|
+|--|
+|TextInputLayout->
+layout_marginTop:10dp 
+MyTextInputEditText->
+textSize:16dp|
+<br>
+
+**MyTextInputLayoutFilledBox.**
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/MyTextInputLayoutFilledBox"
+    android:hint="MyTextInputLayoutFilledBox">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_3"
+        style="@style/MyTextInputEditText" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/6.MyTextIputLayoutFilledBox.jpg)|
+|--|
+|TextInputLayout->
+layout_marginTop:10dp 
+MyTextInputEditText->
+textSize:16dp|
+<br>
+
+**MyTextInputLayoutFilledBoxNext.**
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/MyTextInputLayoutFilledBoxNext"
+    android:hint="MyTextInputLayoutFilledBoxNext"
+    app:startIconDrawable="@drawable/mygzn_home">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_4"
+        style="@style/MyTextInputEditText" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/7.MyTextIputLayoutFilledBoxNext_Icon.jpg)|
+|--|
+|TextInputLayout->
+layout_marginTop:10dp 
+MyTextInputEditText->
+textSize:16dp|
+<br>
+
+**MyTextInputLayoutOutlinedBoxNext.**
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/MyTextInputLayoutOutlinedBoxNext"
+    android:hint="MyTextInputLayoutOutlinedBoxNext"
+    app:counterEnabled="true"
+    app:counterMaxLength="20"
+    app:errorEnabled="true"
+    app:helperText="Helper Text"
+    app:helperTextEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_5"
+        style="@style/MyTextInputEditText" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/8.MyTextIputLayoutOutlinedBoxNext_Helper.jpg)|
+|--|
+|TextInputLayout->
+layout_marginTop:10dp 
+MyTextInputEditText->
+textSize:16dp|
+<br>
+
+**MyTextInputLayoutFilledBox.**
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/MyTextInputLayoutFilledBox"
+    android:hint="MyTextInputLayoutFilledBox*"
+    android:textColorHint="@color/red_500">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ed_6"
+        style="@style/MyTextInputEditText" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/9.MyTextIputLayoutFilledBox_Man.jpg)|
+|--|
+|TextInputLayout->
+layout_marginTop:10dp 
+MyTextInputEditText->
+textSize:16dp|
+<br>
+
+**MyButtonOutlined.**
+```xml
+<LinearLayout
+    style="@style/MyParentButton"
+    android:gravity="end"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/MyButtonOutlined"
+        android:text="MyButtonOutlined" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/10.MyButtonOutlined.jpg)|
+|--|
+|MyParentButton->
+layout_marginTop:10dp 
+MyButtonOutlined->
+layout_height:48dp|
+<br>
+
+**MyButtonText.**
+```xml
+<LinearLayout
+    style="@style/MyParentButton"
+    android:gravity="end"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/MyButtonText"
+        android:text="MyButtonText" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/11.MyButtonText.jpg)|
+|--|
+|MyParentButton->
+layout_marginTop:10dp 
+MyButtonText->
+layout_height:48dp|
+<br>
+
+
 ---
 
 ```
