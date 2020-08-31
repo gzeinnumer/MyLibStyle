@@ -68,8 +68,15 @@ dependencies {
 
 ---
 
-
-
+**MyTextHeader.**
+```xml
+<TextView
+    style="@style/MyTextHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MyTextHeader" />
+```
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg)|
 ---
 
 ```
