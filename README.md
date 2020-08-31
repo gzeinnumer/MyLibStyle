@@ -1,2 +1,85 @@
-# MyLibStyle
- Cara simple mengimplementasikan material design
+<h1 align="center">
+  MyLibStyle
+</h1>
+
+<div align="center">
+    <a><img src="https://img.shields.io/badge/Version-0.0.1-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
+    <a href="https://github.com/gzeinnumer"><img src="https://img.shields.io/github/followers/gzeinnumer?label=follow&style=social"></a>
+    <p>Kumpulan Style siap pakai yang sering dipakai di development android dengan material.io, dokumen ini dibuat berdasarkan pengalaman saya, kasih masukan kalau ada yang kurang. terimakasih karna sudah berkunjung</p>
+</div>
+
+---
+
+### Feature List
+- [x] TextView
+- [x] TextInputLayout
+- [x] TextInputEditText
+- [x] Divider
+- [x] ButtonOutLined
+- [x] ButtonText
+- [x] ButtonIcon
+- [x] ButtonContained
+- [x] AutoCompleteTextView
+- [x] TakeFotoIcon
+- [x] ImagePreview
+- [x] RadioGroup
+- [x] RadioButton
+- [x] CheckBox
+- [x] ButtonNavigation
+- [x] HomeBackIcon
+- [x] TitleActionBar
+- [x] ActionBarMenuIcon
+- [x] ActionBarMenuText
+- [x] SearchSpinner
+- [X] Corner
+- [ ] Dialog
+- [ ] Popup
+
+---
+
+### Tech stack and 3rd library
+- Material.io ([docs](https://material.io/develop/android/docs/getting-started))
+
+---
+
+## Download
+
+Minimum Android SDK Version 16
+
+#### Gradle
+**Step 1.** tambahkan maven jitpack.io ke build.gradle (Project) :
+```gradle
+allprojects {
+  repositories {
+    google()
+    jcenter()
+    maven { url 'https://jitpack.io' }
+  }
+}
+```
+
+**Step 2.** tambahkan depedensi ke build.gradle (Module) :
+```gradle
+dependencies {
+  implementation 'com.github.gzeinnumer:MyLibStyle:versi'
+}
+```
+
+---
+
+**MyTextHeader.**
+```xml
+<TextView
+    style="@style/MyTextHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MyTextHeader" />
+```
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg)|
+---
+
+```
+Copyright 2020 M. Fadli Zein
+```
+
