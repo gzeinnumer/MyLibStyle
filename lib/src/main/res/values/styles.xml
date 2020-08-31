@@ -115,6 +115,8 @@
     </style>
 
     <style name="MyTextHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:alpha">1</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/text_header</item>
@@ -123,12 +125,16 @@
     </style>
 
     <style name="MyTextContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:alpha">1</item>
         <item name="android:textColor">@color/text_content</item>
         <item name="android:textSize">@dimen/h3</item>
     </style>
 
     <style name="MyTextInputLayoutOutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_between_edittext</item>
     </style>
 
@@ -137,6 +143,8 @@
     </style>
 
     <style name="MyTextInputLayoutFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_between_edittext_filled</item>
     </style>
 
@@ -145,6 +153,8 @@
     </style>
 
     <style name="MyParentButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_between_edittext</item>
     </style>
 
@@ -169,6 +179,8 @@
     </style>
 
     <style name="MyTextInputEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:alpha">1</item>
         <item name="android:textColor">@color/text_content</item>
         <item name="android:textSize">@dimen/h3</item>
@@ -186,28 +198,40 @@
     </style>
 
     <style name="MyParentSpinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_spinner_normal</item>
     </style>
     <!--revisi-->
     <style name="MyAutoCompleteTextViewFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_spinner</item>
     </style>
 
     <style name="MyAutoCompleteTextViewOutlineBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_spinner</item>
     </style>
 
     <style name="MyAutoCompleteTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:editable">false</item>
         <item name="android:inputType">none</item>
         <item name="android:textSize">@dimen/h3</item>
     </style>
 
     <style name="MyParentRadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_radio_group</item>
     </style>
 
     <style name="MyRadioGroupText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_between_radio_button</item>
         <item name="android:alpha">1</item>
         <item name="android:textColor">@color/text_content</item>
@@ -215,6 +239,8 @@
     </style>
 
     <style name="MyRadioGroup">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_radio_button</item>
         <item name="android:orientation">vertical</item>
         <item name="android:layout_weight">1</item>
@@ -230,6 +256,8 @@
     </style>
 
     <style name="MyTextEditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_between_edit_text</item>
         <item name="android:alpha">1</item>
         <item name="android:textColor">@color/text_content</item>
@@ -237,6 +265,8 @@
     </style>
 
     <style name="MyEditText">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_marginTop">-8dp</item>
         <item name="android:layout_marginStart">-4dp</item>
         <item name="android:layout_marginEnd">-4dp</item>
@@ -248,6 +278,8 @@
     </style>
 
     <style name="MyEditText_Horizontal">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_marginStart">10dp</item>
         <item name="android:layout_marginEnd">-4dp</item>
         <item name="android:textSize">@dimen/h3</item>
@@ -258,6 +290,8 @@
     </style>
 
     <style name="MyCheckBoxText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_between_check_box</item>
         <item name="android:alpha">1</item>
         <item name="android:textColor">@color/text_content</item>
@@ -266,6 +300,8 @@
 
     <style name="MyParentCheckBox">
         <item name="android:layout_marginTop">@dimen/space_between_check_box</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
     </style>
 
     <style name="MyCheckBox">
@@ -283,6 +319,8 @@
     </style>
 
     <style name="MyImageFoto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:paddingStart">8dp</item>
         <item name="android:paddingEnd">8dp</item>
@@ -314,5 +352,15 @@
         <item name="android:layout_margin">@dimen/def_margin_half</item>
         <item name="android:background">@drawable/mygzn_image_preview</item>
         <item name="android:src">@drawable/mygzn_image_preview_icon</item>
+    </style>
+
+    <style name="MySpinner">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MyTakeImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 </resources>
