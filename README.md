@@ -77,6 +77,8 @@ dependencies {
     android:text="MyTextHeader" />
 ```
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg)|
+|--|
+|MyTextHeader|
 ---
 
 ```
