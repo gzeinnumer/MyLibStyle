@@ -69,6 +69,7 @@ dependencies {
 ---
 
 **MyTextHeader.**
+Code:
 ```xml
 <TextView
     style="@style/MyTextHeader"
@@ -80,6 +81,21 @@ Preview:
 |textStyle:bold 
 textSize:16dp
 layout_marginTop:10dp|
+<br>
+
+**MyTextHeader.**
+Code:
+```xml
+<TextView
+    style="@style/MyTextContent"
+    android:text="MyTextContent" />
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg)|
+|--|
+|textStyle:bold 
+textSize:16dp|
+<br>
 ---
 
 ```
