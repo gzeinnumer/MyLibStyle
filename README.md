@@ -296,6 +296,147 @@ MyButtonText->
 layout_height:48dp|
 <br>
 
+**MyButtonContained.**
+```xml
+<LinearLayout
+    style="@style/MyParentButton"
+    android:gravity="end"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/MyButtonContained"
+        android:text="MyButtonContained" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/12.MyButtonContained.jpg)|
+|--|
+|MyParentButton->
+layout_marginTop:10dp 
+MyButtonContained->
+layout_height:48dp|
+<br>
+
+**MyButtonIcon.**
+```xml
+<LinearLayout
+    style="@style/MyParentButton"
+    android:gravity="end"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/MyButtonIcon"
+        android:text="MyButtonIcon"
+        app:icon="@drawable/mygzn_add" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/13.MyButtonIcon.jpg)|
+|--|
+|MyParentButton->
+layout_marginTop:10dp 
+MyButtonIcon->
+layout_height:48dp|
+<br>
+
+**MyAutoCompleteTextViewFilledBox.**
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/MyAutoCompleteTextViewFilledBox"
+    android:hint="MyAutoCompleteTextViewFilledBox">
+
+    <AutoCompleteTextView
+        android:id="@+id/material_spinner_1"
+        style="@style/MyAutoCompleteTextView" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox.jpg)|
+|--|
+|MyAutoCompleteTextViewFilledBox->
+layout_marginTop:10dp 
+MyAutoCompleteTextView->
+editable:false
+inputType:none
+textSize:16dp|
+<br>
+
+**MyAutoCompleteTextViewOutlineBox.**
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/MyAutoCompleteTextViewOutlineBox"
+    android:hint="MyAutoCompleteTextViewOutlineBox">
+
+    <AutoCompleteTextView
+        android:id="@+id/material_spinner_2"
+        style="@style/MyAutoCompleteTextView" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox.jpg)|
+|--|
+|MyAutoCompleteTextViewOutlineBox->
+layout_marginTop:10dp 
+MyAutoCompleteTextView->
+editable:false
+inputType:none
+textSize:16dp|
+<br>
+
+**MySpinner.**
+```xml
+<LinearLayout style="@style/MyParentSpinner">
+
+    <TextView
+        style="@style/MyTextContent"
+        android:layout_weight="1"
+        android:text="Dialog" />
+
+    <Spinner
+        android:id="@+id/material_spinner_4"
+        style="@style/MySpinner"
+        android:layout_weight="1"
+        android:prompt="@string/app_name"
+        android:spinnerMode="dialog" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog.jpg)|
+|--|
+|MyParentSpinner->
+layout_marginTop:10dp|
+<br>
+
+**MySpinner.**
+```xml
+<LinearLayout style="@style/MyParentSpinner">
+
+    <TextView
+        style="@style/MyTextContent"
+        android:layout_weight="1"
+        android:text="Dropdown" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/material_spinner_5"
+        style="@style/MySpinner"
+        android:layout_weight="1"
+        android:prompt="@string/app_name"
+        android:spinnerMode="dropdown" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown.jpg)|
+|--|
+|MyParentSpinner->
+layout_marginTop:10dp|
+<br>
+
 
 ---
 
