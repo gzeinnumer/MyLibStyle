@@ -440,6 +440,13 @@ layout_height:48dp|
 
 </com.google.android.material.textfield.TextInputLayout>
 ```
+
+```kotlin
+val items = listOf("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune")
+val myAdapter = ArrayAdapter(applicationContext, R.layout.mygzn_list_item, items)
+material_spinner_1.setAdapter(myAdapter)
+```
+
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox.jpg)|
 |--|
@@ -450,7 +457,7 @@ editable:false
 inputType:none
 textSize:16sp|
 
-Onclick:
+OnClick:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg)|
 |--|--|
 <br>
@@ -467,6 +474,13 @@ Onclick:
 
 </com.google.android.material.textfield.TextInputLayout>
 ```
+
+```kotlin
+val items = listOf("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune")
+val myAdapter = ArrayAdapter(applicationContext, R.layout.mygzn_list_item, items)
+material_spinner_2.setAdapter(myAdapter)
+```
+
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox.jpg)|
 |--|
@@ -501,11 +515,22 @@ OnClick:
 
 </LinearLayout>
 ```
+
+```kotlin
+val items = listOf("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune")
+val myAdapter = ArrayAdapter(applicationContext, R.layout.mygzn_list_item, items)
+material_spinner_4.adapter = myAdapter
+```
+
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog.jpg)|
 |--|
 |MyParentSpinner->
 layout_marginTop:10dp|
+
+OnClick:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog_Example.jpg)|
+|--|
 <br>
 
 **MySpinner.**
@@ -526,11 +551,22 @@ layout_marginTop:10dp|
 
 </LinearLayout>
 ```
+
+```kotlin
+val items = listOf("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune")
+val myAdapter = ArrayAdapter(applicationContext, R.layout.mygzn_list_item, items)
+material_spinner_5.adapter = myAdapter
+```
+
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown.jpg)|
 |--|
 |MyParentSpinner->
 layout_marginTop:10dp|
+
+OnClick:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown_Example.jpg)|
+|--|
 <br>
 
 **MyImageFoto.**
@@ -1189,7 +1225,11 @@ itemIconTint:#6200EE
 itemTextColor:#6200EE|
 <br>
 
+---
 
+**FullExample.**
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example3.jpg)|
+|--|--|--|
 ---
 
 ```
