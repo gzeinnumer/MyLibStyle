@@ -70,6 +70,93 @@ dependencies {
 
 **MyTextHeader.**
 ```xml
+<com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/apb"
+    style="@style/MyAppbarLayout">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/tb"
+        style="@style/MyMaterialToolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btn_back"
+                style="@style/MyCostumToolbarImage"
+                android:src="@drawable/mygzn_keyboard_arrow_left"
+                android:tag="CostumToolbarImage" />
+
+            <TextView
+                android:id="@+id/tv_toolbar"
+                style="@style/MyCostumToolbarTitle"
+                android:text="MyCostumToolbarTitle" />
+
+            <ImageButton
+                android:id="@+id/btn_popup"
+                style="@style/MyOptionMenu"
+                android:src="@drawable/mygzn_more_vert" />
+        </LinearLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+</com.google.android.material.appbar.AppBarLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg)|
+|--|
+|MyAppbarLayout->
+background:transparent 
+elevation:0dp
+MyAppbarLayout->
+layout_width:match_parent 
+layout_height:?actionBarSize
+contentInsetLeft:0dp
+contentInsetStart:0dp
+MyCostumToolbarImage->
+backgroundTint:transparent 
+layout_width:24dp 
+layout_height:24dp
+layout_marginStart:10dp
+layout_marginTop:10dp
+layout_marginBottom:10dp
+MyCostumToolbarTitle->
+textAlignment:center
+textStyle:bold
+layout_weight:1
+textSize:18dp
+layout_marginStart:10dp
+layout_marginTop:10dp
+layout_marginBottom:10dp
+MyOptionMenu->
+backgroundTint:transparent
+layout_width:24dp 
+layout_height:24dp
+layout_marginStart:10dp
+layout_marginTop:10dp
+layout_marginBottom:10dp
+layout_marginEnd:10dp|
+<br>
+
+**MyTextHeader.**
+```xml
+<TextView
+    android:id="@+id/tv_title"
+    style="@style/MyTopHeader"
+    android:text="MyTopHeader : MainActivity" />
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyTopHeader.jpg)|
+|--|
+|MyAppbarLayout->
+layout_width:match_parent 
+layout_height:40dp
+gravity:center
+textColor:#000
+textSize:16sp|
+<br>
+
+**MyTextHeader.**
+```xml
 <TextView
     style="@style/MyTextHeader"
     android:text="MyTextHeader" />
@@ -78,7 +165,7 @@ Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg)|
 |--|
 |textStyle:bold 
-textSize:16dp
+textSize:16sp
 layout_marginTop:10dp|
 <br>
 
@@ -92,7 +179,7 @@ Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg)|
 |--|
 |textStyle:bold 
-textSize:16dp|
+textSize:16sp|
 <br>
 
 **MyTextInputLayoutOutlinedBox.**
@@ -115,7 +202,7 @@ Preview:
 |TextInputLayout->
 layout_marginTop:10dp 
 MyTextInputEditText->
-textSize:16dp|
+textSize:16sp|
 <br>
 
 **MyTextInputLayoutOutlinedBoxNext.**
@@ -136,7 +223,7 @@ Preview:
 |TextInputLayout->
 layout_marginTop:10dp 
 MyTextInputEditText->
-textSize:16dp|
+textSize:16sp|
 <br>
 
 **MyTextInputLayoutOutlinedBoxNext.**
@@ -158,7 +245,7 @@ Preview:
 |TextInputLayout->
 layout_marginTop:10dp 
 MyTextInputEditText->
-textSize:16dp|
+textSize:16sp|
 <br>
 
 **MyTextInputLayoutFilledBox.**
@@ -179,7 +266,7 @@ Preview:
 |TextInputLayout->
 layout_marginTop:10dp 
 MyTextInputEditText->
-textSize:16dp|
+textSize:16sp|
 <br>
 
 **MyTextInputLayoutFilledBoxNext.**
@@ -201,7 +288,7 @@ Preview:
 |TextInputLayout->
 layout_marginTop:10dp 
 MyTextInputEditText->
-textSize:16dp|
+textSize:16sp|
 <br>
 
 **MyTextInputLayoutOutlinedBoxNext.**
@@ -227,7 +314,7 @@ Preview:
 |TextInputLayout->
 layout_marginTop:10dp 
 MyTextInputEditText->
-textSize:16dp|
+textSize:16sp|
 <br>
 
 **MyTextInputLayoutFilledBox.**
@@ -249,7 +336,7 @@ Preview:
 |TextInputLayout->
 layout_marginTop:10dp 
 MyTextInputEditText->
-textSize:16dp|
+textSize:16sp|
 <br>
 
 **MyButtonOutlined.**
@@ -361,7 +448,7 @@ layout_marginTop:10dp
 MyAutoCompleteTextView->
 editable:false
 inputType:none
-textSize:16dp|
+textSize:16sp|
 <br>
 
 **MyAutoCompleteTextViewOutlineBox.**
@@ -384,7 +471,7 @@ layout_marginTop:10dp
 MyAutoCompleteTextView->
 editable:false
 inputType:none
-textSize:16dp|
+textSize:16sp|
 <br>
 
 **MySpinner.**
@@ -435,6 +522,517 @@ Preview:
 |--|
 |MyParentSpinner->
 layout_marginTop:10dp|
+<br>
+
+**MyImageFoto.**
+```xml
+<LinearLayout
+    android:id="@+id/img_1"
+    style="@style/MyImageFoto"
+    android:layout_width="match_parent">
+
+    <TextView
+        style="@style/MyTextRequired"
+        android:layout_gravity="center" />
+
+    <ImageView
+        style="@style/MyTakeImage"
+        android:src="@drawable/mygzn_take_image" />
+
+    <TextView style="@style/MyImageFotoText" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/18.TextRequired.jpg)|
+|--|
+|MyImageFoto->
+layout_marginTop:10dp
+paddingStart:8dp
+paddingEnd:8dp
+gravity:center
+orientation:vertical
+MyTextRequired->
+text:*Required
+textStyle:italic
+textSize:11sp
+textColor:#F44336
+MyImageFotoText->
+text:Take Foto
+textStyle:itelic
+textSize:11sp|
+<br>
+
+**MyImageFoto.**
+```xml
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/img_2"
+        style="@style/MyImageFoto">
+
+        <ImageView
+            style="@style/MyTakeImage"
+            android:src="@drawable/mygzn_take_image" />
+
+        <TextView style="@style/MyImageFotoText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/img_3"
+        style="@style/MyImageFoto">
+
+        <ImageView
+            style="@style/MyTakeImage"
+            android:src="@drawable/mygzn_take_image" />
+
+        <TextView style="@style/MyImageFotoText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/img_4"
+        style="@style/MyImageFoto">
+
+        <ImageView
+            style="@style/MyTakeImage"
+            android:src="@drawable/mygzn_take_image" />
+
+        <TextView style="@style/MyImageFotoText" />
+
+    </LinearLayout>
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/19.TextFoto.jpg)|
+|--|
+|MyImageFoto->
+layout_marginTop:10dp
+paddingStart:8dp
+paddingEnd:8dp
+gravity:center
+orientation:vertical
+MyImageFotoText->
+text:Take Foto
+textStyle:itelic
+textSize:11sp|
+<br>
+
+**MyImageFoto.**
+```xml
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_between_photo_preview"
+    android:gravity="center">
+
+    <ImageView style="@style/MyImageFotoPreview" />
+
+    <ImageView
+        style="@style/MyImageFotoPreview"
+        android:src="@drawable/mygzn_gzeinnumer_crop" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/20.IconImage.jpg)|
+|--|
+|MyImageFotoPreview->
+layout_margin:8dp
+layout_width:70dp
+layout_height:70dp
+layout_gravity:center|
+<br>
+
+**MyDivider.**
+```xml
+<View style="@style/MyDivider" />
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/21.MyDivider.jpg)|
+|--|
+|MyDivider->
+layout_height:0.8dp
+layout_marginTop:10dp|
+<br>
+
+**MyRadioGroup.**
+```xml
+<LinearLayout
+    style="@style/MyParentRadioGroup"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/MyTextHeader"
+        android:text="MyTextHeader" />
+
+    <TextView
+        style="@style/MyRadioGroupText"
+        android:text="MyRadioGroupText" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        style="@style/MyRadioGroup"
+        android:checkedButton="@+id/first">
+
+        <RadioButton
+            android:id="@+id/first"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+
+        <RadioButton
+            android:id="@+id/second"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/MyRadioGroupText"
+        android:text="MyRadioGroupText" />
+
+    <RadioGroup
+        android:id="@+id/rg_1"
+        style="@style/MyRadioGroup"
+        android:checkedButton="@+id/first_1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/first_1"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+
+        <RadioButton
+            android:id="@+id/second_1"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+    </RadioGroup>
+
+    <View style="@style/MyDivider" />
+
+    <TextView
+        style="@style/MyTextHeader"
+        android:text="MyTextHeader" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/MyTextContent"
+            android:layout_gravity="center|left"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text="MyTextContent" />
+
+        <RadioGroup
+            android:id="@+id/rg_2"
+            style="@style/MyRadioGroup"
+            android:layout_weight="1"
+            android:checkedButton="@+id/first_2"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/first_2"
+                style="@style/MyRadioButton"
+                android:text="MyRadioButton" />
+
+            <RadioButton
+                android:id="@+id/second_2"
+                style="@style/MyRadioButton"
+                android:text="MyRadioButton" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/23.MyRadioButton.jpg)|
+|--|
+|MyParentRadioGroup->
+layout_marginTop:10dp
+MyParentRadioGroup->
+layout_marginTop:10dp
+textSize:16sp
+MyRadioGroup->
+layout_marginTop:10dp
+textSize:16sp
+orientation:vertical
+layout_weight:1
+paddingStart:-5dp
+MyRadioButton->
+textSize:16sp|
+<br>
+
+**MyRadioGroup.**
+```xml
+<LinearLayout
+    style="@style/MyParentRadioGroup"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/MyTextHeader"
+        android:text="MyTextHeader" />
+
+    <TextView
+        style="@style/MyRadioGroupText"
+        android:text="MyRadioGroupText" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        style="@style/MyRadioGroup"
+        android:checkedButton="@+id/first">
+
+        <RadioButton
+            android:id="@+id/first"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+
+        <RadioButton
+            android:id="@+id/second"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/MyRadioGroupText"
+        android:text="MyRadioGroupText" />
+
+    <RadioGroup
+        android:id="@+id/rg_1"
+        style="@style/MyRadioGroup"
+        android:checkedButton="@+id/first_1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/first_1"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+
+        <RadioButton
+            android:id="@+id/second_1"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+    </RadioGroup>
+
+    <View style="@style/MyDivider" />
+
+    <TextView
+        style="@style/MyTextHeader"
+        android:text="MyTextHeader" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/MyTextContent"
+            android:layout_gravity="center|left"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text="MyTextContent" />
+
+        <RadioGroup
+            android:id="@+id/rg_2"
+            style="@style/MyRadioGroup"
+            android:layout_weight="1"
+            android:checkedButton="@+id/first_2"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/first_2"
+                style="@style/MyRadioButton"
+                android:text="MyRadioButton" />
+
+            <RadioButton
+                android:id="@+id/second_2"
+                style="@style/MyRadioButton"
+                android:text="MyRadioButton" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/24.MyRadioButton_Horizontal.jpg)|
+|--|
+|MyParentRadioGroup->
+layout_marginTop:10dp
+MyParentRadioGroup->
+layout_marginTop:10dp
+textSize:16sp
+MyRadioGroup->
+layout_marginTop:10dp
+textSize:16sp
+orientation:vertical
+layout_weight:1
+paddingStart:-5dp
+MyRadioButton->
+textSize:16sp|
+<br>
+
+**MyRadioGroup.**
+```xml
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        style="@style/MyTextContent"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:text="MyTextContent" />
+
+    <RadioGroup
+        android:id="@+id/rg_2"
+        style="@style/MyRadioGroup"
+        android:layout_weight="1"
+        android:checkedButton="@+id/first_2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/first_2"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+
+        <RadioButton
+            android:id="@+id/second_2"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+    </RadioGroup>
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/25.MyRadioButton_Horizontal_Title.jpg)|
+|--|
+|MyRadioGroup->
+layout_marginStart:10dp
+layout_marginEnd:-4dp
+textSize:16sp|
+<br>
+
+**MyEditText.**
+```xml
+<TextView
+    style="@style/MyTextEditText"
+    android:text="MyTextEditText" />
+
+<EditText
+    style="@style/MyEditText"
+    android:backgroundTint="@color/colorPrimary"
+    android:hint="MyEditText" />
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/26.MyTextEditText.jpg)|
+|--|
+|MyTextEditText->
+layout_marginTop:10dp
+textSize:16sp
+MyEditText->
+layout_marginTop:-8dp
+layout_marginStart:-4dp
+layout_marginEnd:-4dp
+textSize:16sp
+inputType:textImeMultiLine
+lines:3
+minLines:3|
+<br>
+
+**MyEditText_Horizontal.**
+```xml
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        style="@style/MyTextContent"
+        android:text="MyTextContent" />
+
+    <EditText
+        style="@style/MyEditText_Horizontal"
+        android:layout_weight="1"
+        android:hint="MyEditText_Horizontal" />
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/28.MyEditText_Horizontal.jpg)|
+|--|
+|MyEditText_Horizontal->
+layout_marginStart:10dp
+layout_marginEnd:-4dp
+textSize:16sp
+inputType:textImeMultiLine
+lines:3
+minLines:3|
+<br>
+
+**MyCheckBox.**
+```xml
+<TextView
+    style="@style/MyCheckBoxText"
+    android:text="MyCheckBoxText" />
+
+<com.google.android.material.checkbox.MaterialCheckBox
+    style="@style/MyCheckBox"
+    android:text="MyCheckBox" />
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/29.MyCheckBoxText.jpg)|
+|--|
+|MyCheckBoxText->
+layout_marginTop:10dp
+textSize:16sp
+MyCheckBox->
+layout_height:25dp
+textSize:16sp
+layout_marginStart:-7dp|
+<br>
+
+**MyCheckBox.**
+```xml
+<LinearLayout style="@style/MyParentCheckBox">
+
+    <TextView
+        style="@style/MyTextContent"
+        android:text="MyTextContent" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        style="@style/MyCheckBox_Horizontal"
+        android:text="MyCheckBox_Horizontal" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg)|
+|--|
+|MyParentCheckBox->
+layout_marginTop:10dp
+textSize:16sp
+MyCheckBox_Horizontal->
+layout_height:25dp
+textSize:16sp
+layout_marginStart:10dp|
+<br>
+
+**MyCheckBox.**
+```xml
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/btn_nav"
+    style="@style/MyBottomNavigationView"
+    app:menu="@menu/mygzn_bottom_nav" />
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg)|
+|--|
+|MyBottomNavigationView->
+itemIconTint:#6200EE
+itemTextColor:#6200EE|
 <br>
 
 
