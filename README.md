@@ -449,6 +449,7 @@ MyAutoCompleteTextView->
 editable:false
 inputType:none
 textSize:16sp|
+
 Onclick:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg)|
 |--|--|
@@ -475,6 +476,7 @@ MyAutoCompleteTextView->
 editable:false
 inputType:none
 textSize:16sp|
+
 OnClick:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox_Example.jpg)|
 |--|
