@@ -6,7 +6,7 @@
     <a><img src="https://img.shields.io/badge/Version-0.0.2-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a href="https://github.com/gzeinnumer"><img src="https://img.shields.io/github/followers/gzeinnumer?label=follow&style=social"></a>
-    <p>Kumpulan Style siap pakai yang sering dipakai di development android dengan material.io, dokumen ini dibuat berdasarkan pengalaman saya, kasih masukan kalau ada yang kurang. terimakasih karna sudah berkunjung</p>
+    <p>Kumpulan Style siap pakai yang sering dipakai di development android dengan material.io, tujuan library ini hanya untuk menghilangkan pengulangan kode pada xml, jadi kamu bisa lebih fokus pada logika, dokumen ini dibuat berdasarkan pengalaman saya, kasih masukan kalau ada yang kurang. terimakasih karna sudah berkunjung</p>
 </div>
 
 ---
@@ -32,9 +32,9 @@
 - [x] ActionBarMenuIcon
 - [x] ActionBarMenuText
 - [x] SearchSpinner
-- [X] Corner
+- [x] Corner
+- [x] Popup
 - [ ] Dialog
-- [ ] Popup
 
 ---
 
@@ -137,6 +137,8 @@ layout_marginBottom:10dp
 layout_marginEnd:10dp|
 <br>
 
+---
+
 **MyTextHeader.**
 ```xml
 <TextView
@@ -155,6 +157,8 @@ textColor:#000
 textSize:16sp|
 <br>
 
+---
+
 **MyTextHeader.**
 ```xml
 <TextView
@@ -169,6 +173,8 @@ textSize:16sp
 layout_marginTop:10dp|
 <br>
 
+---
+
 **MyTextContent.**
 ```xml
 <TextView
@@ -181,6 +187,8 @@ Preview:
 |textStyle:bold 
 textSize:16sp|
 <br>
+
+---
 
 **MyTextInputLayoutOutlinedBox.**
 ```xml
@@ -205,6 +213,8 @@ MyTextInputEditText->
 textSize:16sp|
 <br>
 
+---
+
 **MyTextInputLayoutOutlinedBoxNext.**
 ```xml
 <com.google.android.material.textfield.TextInputLayout
@@ -225,6 +235,8 @@ layout_marginTop:10dp
 MyTextInputEditText->
 textSize:16sp|
 <br>
+
+---
 
 **MyTextInputLayoutOutlinedBoxNext.**
 ```xml
@@ -248,6 +260,8 @@ MyTextInputEditText->
 textSize:16sp|
 <br>
 
+---
+
 **MyTextInputLayoutFilledBox.**
 ```xml
 <com.google.android.material.textfield.TextInputLayout
@@ -268,6 +282,8 @@ layout_marginTop:10dp
 MyTextInputEditText->
 textSize:16sp|
 <br>
+
+---
 
 **MyTextInputLayoutFilledBoxNext.**
 ```xml
@@ -290,6 +306,8 @@ layout_marginTop:10dp
 MyTextInputEditText->
 textSize:16sp|
 <br>
+
+---
 
 **MyTextInputLayoutOutlinedBoxNext.**
 ```xml
@@ -317,6 +335,8 @@ MyTextInputEditText->
 textSize:16sp|
 <br>
 
+---
+
 **MyTextInputLayoutFilledBox.**
 ```xml
 <com.google.android.material.textfield.TextInputLayout
@@ -338,6 +358,8 @@ layout_marginTop:10dp
 MyTextInputEditText->
 textSize:16sp|
 <br>
+
+---
 
 **MyButtonOutlined.**
 ```xml
@@ -361,6 +383,8 @@ MyButtonOutlined->
 layout_height:48dp|
 <br>
 
+---
+
 **MyButtonText.**
 ```xml
 <LinearLayout
@@ -382,6 +406,8 @@ layout_marginTop:10dp
 MyButtonText->
 layout_height:48dp|
 <br>
+
+---
 
 **MyButtonContained.**
 ```xml
@@ -405,6 +431,8 @@ MyButtonContained->
 layout_height:48dp|
 <br>
 
+---
+
 **MyButtonIcon.**
 ```xml
 <LinearLayout
@@ -427,6 +455,8 @@ layout_marginTop:10dp
 MyButtonIcon->
 layout_height:48dp|
 <br>
+
+---
 
 **MyAutoCompleteTextViewFilledBox.**
 ```xml
@@ -462,6 +492,8 @@ OnClick:
 |--|--|
 <br>
 
+---
+
 **MyAutoCompleteTextViewOutlineBox.**
 ```xml
 <com.google.android.material.textfield.TextInputLayout
@@ -496,6 +528,8 @@ OnClick:
 |--|
 
 <br>
+
+---
 
 **MySpinner.**
 ```xml
@@ -533,6 +567,8 @@ OnClick:
 |--|
 <br>
 
+---
+
 **MySpinner.**
 ```xml
 <LinearLayout style="@style/MyParentSpinner">
@@ -568,6 +604,8 @@ OnClick:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown_Example.jpg)|
 |--|
 <br>
+
+---
 
 **MyImageFoto.**
 ```xml
@@ -607,6 +645,8 @@ text:Take Foto
 textStyle:itelic
 textSize:11sp|
 <br>
+
+---
 
 **MyImageFoto.**
 ```xml
@@ -667,6 +707,8 @@ textStyle:itelic
 textSize:11sp|
 <br>
 
+---
+
 **MyImageFoto.**
 ```xml
 <LinearLayout
@@ -693,6 +735,8 @@ layout_height:70dp
 layout_gravity:center|
 <br>
 
+---
+
 **MyDivider.**
 ```xml
 <View style="@style/MyDivider" />
@@ -704,6 +748,8 @@ Preview:
 layout_height:0.8dp
 layout_marginTop:10dp|
 <br>
+
+---
 
 **MyRadioGroup.**
 ```xml
@@ -812,6 +858,8 @@ MyRadioButton->
 textSize:16sp|
 <br>
 
+---
+
 **MyRadioGroup.**
 ```xml
 <LinearLayout
@@ -919,6 +967,8 @@ MyRadioButton->
 textSize:16sp|
 <br>
 
+---
+
 **MyRadioGroup.**
 ```xml
 <LinearLayout
@@ -961,6 +1011,8 @@ layout_marginEnd:-4dp
 textSize:16sp|
 <br>
 
+---
+
 **MyEditText.**
 ```xml
 <TextView
@@ -987,6 +1039,8 @@ inputType:textImeMultiLine
 lines:3
 minLines:3|
 <br>
+
+---
 
 **MyEditText_Horizontal.**
 ```xml
@@ -1017,6 +1071,8 @@ lines:3
 minLines:3|
 <br>
 
+---
+
 **MyCheckBox.**
 ```xml
 <TextView
@@ -1039,46 +1095,7 @@ textSize:16sp
 layout_marginStart:-7dp|
 <br>
 
-**MyCheckBox.**
-```xml
-<LinearLayout style="@style/MyParentCheckBox">
-
-    <TextView
-        style="@style/MyTextContent"
-        android:text="MyTextContent" />
-
-    <com.google.android.material.checkbox.MaterialCheckBox
-        style="@style/MyCheckBox_Horizontal"
-        android:text="MyCheckBox_Horizontal" />
-
-</LinearLayout>
-```
-Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg)|
-|--|
-|MyParentCheckBox->
-layout_marginTop:10dp
-textSize:16sp
-MyCheckBox_Horizontal->
-layout_height:25dp
-textSize:16sp
-layout_marginStart:10dp|
-<br>
-
-**MyCheckBox.**
-```xml
-<com.google.android.material.bottomnavigation.BottomNavigationView
-    android:id="@+id/btn_nav"
-    style="@style/MyBottomNavigationView"
-    app:menu="@menu/mygzn_bottom_nav" />
-```
-Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg)|
-|--|
-|MyBottomNavigationView->
-itemIconTint:#6200EE
-itemTextColor:#6200EE|
-<br>
+---
 
 **MyCheckBox.**
 ```xml
@@ -1106,6 +1123,8 @@ textSize:16sp
 layout_marginStart:10dp|
 <br>
 
+---
+
 **MyCheckBox.**
 ```xml
 <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -1120,6 +1139,53 @@ Preview:
 itemIconTint:#6200EE
 itemTextColor:#6200EE|
 <br>
+
+---
+
+**MyCheckBox.**
+```xml
+<LinearLayout style="@style/MyParentCheckBox">
+
+    <TextView
+        style="@style/MyTextContent"
+        android:text="MyTextContent" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        style="@style/MyCheckBox_Horizontal"
+        android:text="MyCheckBox_Horizontal" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg)|
+|--|
+|MyParentCheckBox->
+layout_marginTop:10dp
+textSize:16sp
+MyCheckBox_Horizontal->
+layout_height:25dp
+textSize:16sp
+layout_marginStart:10dp|
+<br>
+
+---
+
+**MyCheckBox.**
+```xml
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/btn_nav"
+    style="@style/MyBottomNavigationView"
+    app:menu="@menu/mygzn_bottom_nav" />
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg)|
+|--|
+|MyBottomNavigationView->
+itemIconTint:#6200EE
+itemTextColor:#6200EE|
+<br>
+
+---
 
 **MyParentTypeCardEdge.**
 ```xml
@@ -1180,6 +1246,22 @@ itemTextColor:#6200EE|
         app:menu="@menu/mygzn_bottom_nav" />
 </LinearLayout>
 ```
+
+```kotlin
+btn_popup.setOnClickListener {
+    val popup = PopupMenu(this, btn_popup)
+    val inflater: MenuInflater = popup.menuInflater
+    inflater.inflate(R.menu.mygzn_bottom_nav, popup.menu)
+    popup.setOnMenuItemClickListener { item ->
+        when (item?.itemId) {
+            R.id.id_next -> startActivity(Intent(applicationContext, MainActivity::class.java))
+        }
+        false
+    }
+    popup.show()
+}
+```
+
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg)|
 |--|
