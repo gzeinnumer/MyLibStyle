@@ -1035,6 +1035,151 @@ itemIconTint:#6200EE
 itemTextColor:#6200EE|
 <br>
 
+**MyCheckBox.**
+```xml
+<LinearLayout style="@style/MyParentCheckBox">
+
+    <TextView
+        style="@style/MyTextContent"
+        android:text="MyTextContent" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        style="@style/MyCheckBox_Horizontal"
+        android:text="MyCheckBox_Horizontal" />
+
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg)|
+|--|
+|MyParentCheckBox->
+layout_marginTop:10dp
+textSize:16sp
+MyCheckBox_Horizontal->
+layout_height:25dp
+textSize:16sp
+layout_marginStart:10dp|
+<br>
+
+**MyCheckBox.**
+```xml
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/btn_nav"
+    style="@style/MyBottomNavigationView"
+    app:menu="@menu/mygzn_bottom_nav" />
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg)|
+|--|
+|MyBottomNavigationView->
+itemIconTint:#6200EE
+itemTextColor:#6200EE|
+<br>
+
+**MyParentTypeCardEdge.**
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/apb"
+        style="@style/MyAppbarLayout">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/tb"
+            style="@style/MyMaterialToolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btn_back"
+                    style="@style/MyCostumToolbarImage"
+                    android:src="@drawable/mygzn_keyboard_arrow_left"
+                    android:tag="CostumToolbarImage" />
+
+                <TextView
+                    android:id="@+id/tv_toolbar"
+                    style="@style/MyCostumToolbarTitle"
+                    android:text="MyCostumToolbarTitle" />
+
+                <ImageButton
+                    android:id="@+id/btn_popup"
+                    style="@style/MyOptionMenu"
+                    android:src="@drawable/mygzn_more_vert" />
+            </LinearLayout>
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        style="@style/MyParentTypeCardEdge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Your Widget -->
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btn_nav"
+        style="@style/MyBottomNavigationView"
+        app:menu="@menu/mygzn_bottom_nav" />
+</LinearLayout>
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg)|
+|--|
+|MyAppbarLayout->
+background:transparent 
+elevation:0dp
+MyAppbarLayout->
+layout_width:match_parent 
+layout_height:?actionBarSize
+contentInsetLeft:0dp
+contentInsetStart:0dp
+MyCostumToolbarImage->
+backgroundTint:transparent 
+layout_width:24dp 
+layout_height:24dp
+layout_marginStart:10dp
+layout_marginTop:10dp
+layout_marginBottom:10dp
+MyCostumToolbarTitle->
+textAlignment:center
+textStyle:bold
+layout_weight:1
+textSize:18dp
+layout_marginStart:10dp
+layout_marginTop:10dp
+layout_marginBottom:10dp
+MyOptionMenu->
+backgroundTint:transparent
+layout_width:24dp 
+layout_height:24dp
+layout_marginStart:10dp
+layout_marginTop:10dp
+layout_marginBottom:10dp
+layout_marginEnd:10dp
+MyParentTypeCardEdge->
+padding:16dp
+layout_marginLeft:16dp
+layout_marginRight:16dp
+layout_marginBottom:16dp
+orientation:orientation
+MyBottomNavigationView->
+itemIconTint:#6200EE
+itemTextColor:#6200EE|
+<br>
+
 
 ---
 
