@@ -96,6 +96,7 @@ Custom sendiri :
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_3.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_2.jpg)|
 |--|--|
+|Default|Custom|
 
 **MyAppbarLayout.**
 ```xml
