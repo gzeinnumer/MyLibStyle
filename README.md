@@ -108,7 +108,7 @@ dependencies {
 </com.google.android.material.appbar.AppBarLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg)|
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg=250x)|
 |--|
 |MyAppbarLayout->
 background:transparent 
