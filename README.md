@@ -78,7 +78,7 @@ Default dari MyLibStyle :
 
 <TextView
     style="@style/MyTextContent"
-    android:text="MyTextContent : MainActivity" />
+    android:text="MyTextContent" />
 ```
 
 Custom sendiri : 
