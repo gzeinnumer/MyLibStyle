@@ -68,7 +68,36 @@ dependencies {
 
 ---
 
-**MyTextHeader.**
+**Notes. Semua Style Disini bisa kamu Custom ulang dengan menambahkan atribut yang kamu inginkan, contoh :**
+
+Default dari MyLibStyle : 
+```xml
+<TextView
+    style="@style/MyTextHeader"
+    android:text="MyTextHeader" />
+
+<TextView
+    style="@style/MyTextContent"
+    android:text="MyTextContent : MainActivity" />
+```
+
+Custom sendiri : 
+```xml
+<TextView
+    style="@style/MyTextHeader"
+    android:text="MyTextHeader" />
+
+<TextView
+    style="@style/MyTextContent"
+    android:text="MyTextContent"
+    android:textColor="@android:color/holo_red_dark"
+    android:textSize="36sp" />
+```
+Preview:
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_2.jpg)|
+|--|--|
+
+**MyAppbarLayout.**
 ```xml
 <com.google.android.material.appbar.AppBarLayout
     android:id="@+id/apb"
@@ -139,7 +168,7 @@ layout_marginEnd:10dp|
 
 ---
 
-**MyTextHeader.**
+**MyTopHeader.**
 ```xml
 <TextView
     android:id="@+id/tv_title"
