@@ -137,7 +137,7 @@ Preview:
 </com.google.android.material.appbar.AppBarLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg=250x)|
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg)|
 |--|
 |MyAppbarLayout->
 background:transparent 
@@ -184,7 +184,7 @@ layout_marginEnd:10dp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyTopHeader.jpg)|
 |--|
-|MyAppbarLayout->
+|MyTopHeader->
 layout_width:match_parent 
 layout_height:40dp
 gravity:center
