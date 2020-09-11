@@ -59,7 +59,7 @@ allprojects {
 }
 ```
 
-**Step 2.** tambahkan depedensi ke build.gradle (Module) :
+**Step 2.** tambahkan depedensi ke build.gradle (Module) : 
 ```gradle
 dependencies {
   implementation 'com.github.gzeinnumer:MyLibStyle:versi'
