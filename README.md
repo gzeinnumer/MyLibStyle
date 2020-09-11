@@ -100,7 +100,7 @@ Custom sendiri :
     android:textSize="36sp" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_2.jpg)|
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_3.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_2.jpg)|
 |--|--|
 
 **MyAppbarLayout.**
