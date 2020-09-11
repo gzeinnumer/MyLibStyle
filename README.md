@@ -68,7 +68,7 @@ dependencies {
 
 ---
 
-**Notes. Semua Style Disini bisa kamu Custom ulang dengan menambahkan atribut yang kamu inginkan, contoh :**
+**Notes. Semua Style disini bisa kamu custom ulang dengan menambahkan atribut yang kamu inginkan, contoh :**
 
 Default dari MyLibStyle : 
 ```xml
