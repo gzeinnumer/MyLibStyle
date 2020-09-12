@@ -6,6 +6,9 @@
     <a><img src="https://img.shields.io/badge/Version-0.0.3-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a href="https://github.com/gzeinnumer"><img src="https://img.shields.io/github/followers/gzeinnumer?label=follow&style=social"></a>
+    <br>
+    <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
     <p>Kumpulan Style siap pakai yang sering dipakai di development android dengan material.io, tujuan library ini hanya untuk menghilangkan pengulangan kode pada xml, jadi kamu bisa lebih fokus pada logika, dokumen ini dibuat berdasarkan pengalaman saya, kasih masukan kalau ada yang kurang. terimakasih karna sudah berkunjung</p>
 </div>
 
