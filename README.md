@@ -77,6 +77,14 @@ dependencies {
 
 ---
 
+**Langkah Awal**. Aktifkan `MaterialComponents` di style dengan cara mengganti parent dari `AppTheme` :
+
+```xml
+<style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+</style>
+```
+
 **Notes. Semua Style disini bisa kamu custom ulang dengan menambahkan atribut yang kamu inginkan, contoh :**
 
 Default dari MyLibStyle : 
