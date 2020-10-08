@@ -817,7 +817,9 @@ Preview:
 <p align="center">
 <img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg" width="500"/>
 </p>
+
 #
+
 **MyParentTypeCardEdge.**
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -897,6 +899,7 @@ Preview:
 <p align="center">
 <img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg" width="500"/>
 </p>
+
 ---
 
 ```
