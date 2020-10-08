@@ -104,8 +104,7 @@ Custom sendiri :
 ```
 Preview:
 
-|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_3.jpg" width="500"/>|
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_2.jpg" width="500"/>|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_3.jpg" width="300"/>|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_2.jpg" width="300"/>|
 |--|--|
 |Default|Custom|
 
@@ -146,7 +145,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg" width="300"/>
 </p>
 
 #
@@ -160,7 +159,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyTopHeader.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyTopHeader.jpg" width="300"/>
 </p>
 
 #
@@ -173,7 +172,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg" width="300"/>
 </p>
 
 #
@@ -186,7 +185,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg" width="300"/>
 </p>
 
 #
@@ -207,7 +206,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/3.MyTextIputLayoutOutlinedBox_Pass.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/3.MyTextIputLayoutOutlinedBox_Pass.jpg" width="300"/>
 </p>
 
 #
@@ -226,7 +225,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/4.MyTextIputLayoutOutlinedBoxNext.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/4.MyTextIputLayoutOutlinedBoxNext.jpg" width="300"/>
 </p>
 
 #
@@ -246,7 +245,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/5.MyTextIputLayoutOutlinedBoxNext_Man.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/5.MyTextIputLayoutOutlinedBoxNext_Man.jpg" width="300"/>
 </p>
 
 #
@@ -265,7 +264,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/6.MyTextIputLayoutFilledBox.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/6.MyTextIputLayoutFilledBox.jpg" width="300"/>
 </p>
 
 #
@@ -285,7 +284,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/7.MyTextIputLayoutFilledBoxNext_Icon.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/7.MyTextIputLayoutFilledBoxNext_Icon.jpg" width="300"/>
 </p>
 
 #
@@ -309,7 +308,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/8.MyTextIputLayoutOutlinedBoxNext_Helper.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/8.MyTextIputLayoutOutlinedBoxNext_Helper.jpg" width="300"/>
 </p>
 
 #
@@ -329,7 +328,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/9.MyTextIputLayoutFilledBox_Man.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/9.MyTextIputLayoutFilledBox_Man.jpg" width="300"/>
 </p>
 
 #
@@ -349,7 +348,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/10.MyButtonOutlined.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/10.MyButtonOutlined.jpg" width="300"/>
 </p>
 
 #
@@ -369,7 +368,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/11.MyButtonText.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/11.MyButtonText.jpg" width="300"/>
 </p>
 
 #
@@ -389,7 +388,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/12.MyButtonContained.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/12.MyButtonContained.jpg" width="300"/>
 </p>
 
 #
@@ -410,7 +409,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/13.MyButtonIcon.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/13.MyButtonIcon.jpg" width="300"/>
 </p>
 
 #
@@ -436,13 +435,11 @@ material_spinner_1.setAdapter(myAdapter)
 
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox.jpg" width="300"/>
 </p>
 
 OnClick:
-<p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg" width="500"/><p align="center">|
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg" width="500"/>|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg" width="300"/>|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg" width="300"/>|
 |--|--|
 
 #
@@ -468,12 +465,12 @@ material_spinner_2.setAdapter(myAdapter)
 
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox.jpg" width="300"/>
 </p>
 
 OnClick:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox_Example.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox_Example.jpg" width="300"/>
 </p>
 
 #
@@ -505,12 +502,12 @@ material_spinner_4.adapter = myAdapter
 
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog.jpg" width="300"/>
 </p>
 
 OnClick:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog_Example.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog_Example.jpg" width="300"/>
 </p>
 
 #
@@ -542,7 +539,7 @@ material_spinner_5.adapter = myAdapter
 
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown.jpg" width="300"/>
 </p>
 
 #
@@ -568,7 +565,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/18.TextRequired.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/18.TextRequired.jpg" width="300"/>
 </p>
 
 #
@@ -619,7 +616,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/19.TakeFoto.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/19.TakeFoto.jpg" width="300"/>
 </p>
 
 #
@@ -642,7 +639,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/20.IconImage.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/20.IconImage.jpg" width="300"/>
 </p>
 
 #
@@ -653,7 +650,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/21.MyDivider.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/21.MyDivider.jpg" width="300"/>
 </p>
 
 #
@@ -678,7 +675,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/23.MyRadioButton.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/23.MyRadioButton.jpg" width="300"/>
 </p>
 
 #
@@ -708,7 +705,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/24.MyRadioButton_Horizontal.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/24.MyRadioButton_Horizontal.jpg" width="300"/>
 </p>
 
 #
@@ -752,7 +749,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/25.MyRadioButton_Horizontal_Title.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/25.MyRadioButton_Horizontal_Title.jpg" width="300"/>
 </p>
 
 #
@@ -770,7 +767,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/26.MyTextEditText.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/26.MyTextEditText.jpg" width="300"/>
 </p>
 
 #
@@ -794,7 +791,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/28.MyEditText_Horizontal.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/28.MyEditText_Horizontal.jpg" width="300"/>
 </p>
 
 #
@@ -811,7 +808,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/29.MyCheckBoxText.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/29.MyCheckBoxText.jpg" width="300"/>
 </p>
 
 #
@@ -832,7 +829,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg" width="300"/>
 </p>
 
 #
@@ -846,7 +843,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg" width="300"/>
 </p>
 
 #
@@ -867,7 +864,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg" width="300"/>
 </p>
 
 #
@@ -881,7 +878,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg" width="300"/>
 </p>
 
 #
@@ -963,7 +960,7 @@ btn_popup.setOnClickListener {
 
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg" width="500"/>
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg" width="300"/>
 </p>
 
 ---
