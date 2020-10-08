@@ -37,9 +37,7 @@
 - [x] SearchSpinner
 - [x] Corner
 - [x] Popup
-- [ ] Dialog
-
----
+- [x] Dialog ([DOCS](https://github.com/gzeinnumer/MyLibDialog))
 
 ### Tech stack and 3rd library
 - Material.io ([docs](https://material.io/develop/android/docs/getting-started))
@@ -145,40 +143,6 @@ Preview:
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg)|
 |--|
-|MyAppbarLayout->
-background:transparent 
-elevation:0dp
-MyAppbarLayout->
-layout_width:match_parent 
-layout_height:?actionBarSize
-contentInsetLeft:0dp
-contentInsetStart:0dp
-MyCostumToolbarImage->
-backgroundTint:transparent 
-layout_width:24dp 
-layout_height:24dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-MyCostumToolbarTitle->
-textAlignment:center
-textStyle:bold
-layout_weight:1
-textSize:18dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-MyOptionMenu->
-backgroundTint:transparent
-layout_width:24dp 
-layout_height:24dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-layout_marginEnd:10dp|
-<br>
-
----
 
 **MyTopHeader.**
 ```xml
@@ -190,15 +154,6 @@ layout_marginEnd:10dp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyTopHeader.jpg)|
 |--|
-|MyTopHeader->
-layout_width:match_parent 
-layout_height:40dp
-gravity:center
-textColor:#000
-textSize:16sp|
-<br>
-
----
 
 **MyTextHeader.**
 ```xml
@@ -209,12 +164,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg)|
 |--|
-|textStyle:bold 
-textSize:16sp
-layout_marginTop:10dp|
-<br>
-
----
 
 **MyTextContent.**
 ```xml
@@ -225,11 +174,6 @@ layout_marginTop:10dp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg)|
 |--|
-|textStyle:bold 
-textSize:16sp|
-<br>
-
----
 
 **MyTextInputLayoutOutlinedBox.**
 ```xml
@@ -248,13 +192,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/3.MyTextIputLayoutOutlinedBox_Pass.jpg)|
 |--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
-
----
 
 **MyTextInputLayoutOutlinedBoxNext.**
 ```xml
@@ -271,13 +208,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/4.MyTextIputLayoutOutlinedBoxNext.jpg)|
 |--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
-
----
 
 **MyTextInputLayoutOutlinedBoxNext.**
 ```xml
@@ -295,13 +225,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/5.MyTextIputLayoutOutlinedBoxNext_Man.jpg)|
 |--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
-
----
 
 **MyTextInputLayoutFilledBox.**
 ```xml
@@ -318,13 +241,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/6.MyTextIputLayoutFilledBox.jpg)|
 |--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
-
----
 
 **MyTextInputLayoutFilledBoxNext.**
 ```xml
@@ -342,13 +258,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/7.MyTextIputLayoutFilledBoxNext_Icon.jpg)|
 |--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
-
----
 
 **MyTextInputLayoutOutlinedBoxNext.**
 ```xml
@@ -370,13 +279,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/8.MyTextIputLayoutOutlinedBoxNext_Helper.jpg)|
 |--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
-
----
 
 **MyTextInputLayoutFilledBox.**
 ```xml
@@ -394,13 +296,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/9.MyTextIputLayoutFilledBox_Man.jpg)|
 |--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
-
----
 
 **MyButtonOutlined.**
 ```xml
@@ -418,13 +313,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/10.MyButtonOutlined.jpg)|
 |--|
-|MyParentButton->
-layout_marginTop:10dp 
-MyButtonOutlined->
-layout_height:48dp|
-<br>
-
----
 
 **MyButtonText.**
 ```xml
@@ -442,13 +330,6 @@ layout_height:48dp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/11.MyButtonText.jpg)|
 |--|
-|MyParentButton->
-layout_marginTop:10dp 
-MyButtonText->
-layout_height:48dp|
-<br>
-
----
 
 **MyButtonContained.**
 ```xml
@@ -466,13 +347,6 @@ layout_height:48dp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/12.MyButtonContained.jpg)|
 |--|
-|MyParentButton->
-layout_marginTop:10dp 
-MyButtonContained->
-layout_height:48dp|
-<br>
-
----
 
 **MyButtonIcon.**
 ```xml
@@ -491,13 +365,6 @@ layout_height:48dp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/13.MyButtonIcon.jpg)|
 |--|
-|MyParentButton->
-layout_marginTop:10dp 
-MyButtonIcon->
-layout_height:48dp|
-<br>
-
----
 
 **MyAutoCompleteTextViewFilledBox.**
 ```xml
@@ -521,19 +388,10 @@ material_spinner_1.setAdapter(myAdapter)
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox.jpg)|
 |--|
-|MyAutoCompleteTextViewFilledBox->
-layout_marginTop:10dp 
-MyAutoCompleteTextView->
-editable:false
-inputType:none
-textSize:16sp|
 
 OnClick:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg)|
 |--|--|
-<br>
-
----
 
 **MyAutoCompleteTextViewOutlineBox.**
 ```xml
@@ -557,20 +415,10 @@ material_spinner_2.setAdapter(myAdapter)
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox.jpg)|
 |--|
-|MyAutoCompleteTextViewOutlineBox->
-layout_marginTop:10dp 
-MyAutoCompleteTextView->
-editable:false
-inputType:none
-textSize:16sp|
 
 OnClick:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox_Example.jpg)|
 |--|
-
-<br>
-
----
 
 **MySpinner.**
 ```xml
@@ -600,15 +448,10 @@ material_spinner_4.adapter = myAdapter
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog.jpg)|
 |--|
-|MyParentSpinner->
-layout_marginTop:10dp|
 
 OnClick:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog_Example.jpg)|
 |--|
-<br>
-
----
 
 **MySpinner.**
 ```xml
@@ -638,15 +481,6 @@ material_spinner_5.adapter = myAdapter
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown.jpg)|
 |--|
-|MyParentSpinner->
-layout_marginTop:10dp|
-
-OnClick:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown_Example.jpg)|
-|--|
-<br>
-
----
 
 **MyImageFoto.**
 ```xml
@@ -670,24 +504,6 @@ OnClick:
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/18.TextRequired.jpg)|
 |--|
-|MyImageFoto->
-layout_marginTop:10dp
-paddingStart:8dp
-paddingEnd:8dp
-gravity:center
-orientation:vertical
-MyTextRequired->
-text:*Required
-textStyle:italic
-textSize:11sp
-textColor:#F44336
-MyImageFotoText->
-text:Take Foto
-textStyle:itelic
-textSize:11sp|
-<br>
-
----
 
 **MyImageFoto.**
 ```xml
@@ -734,21 +550,8 @@ textSize:11sp|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/19.TextFoto.jpg)|
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/19.TakeFoto.jpg)|
 |--|
-|MyImageFoto->
-layout_marginTop:10dp
-paddingStart:8dp
-paddingEnd:8dp
-gravity:center
-orientation:vertical
-MyImageFotoText->
-text:Take Foto
-textStyle:itelic
-textSize:11sp|
-<br>
-
----
 
 **MyImageFoto.**
 ```xml
@@ -769,14 +572,6 @@ textSize:11sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/20.IconImage.jpg)|
 |--|
-|MyImageFotoPreview->
-layout_margin:8dp
-layout_width:70dp
-layout_height:70dp
-layout_gravity:center|
-<br>
-
----
 
 **MyDivider.**
 ```xml
@@ -785,12 +580,6 @@ layout_gravity:center|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/21.MyDivider.jpg)|
 |--|
-|MyDivider->
-layout_height:0.8dp
-layout_marginTop:10dp|
-<br>
-
----
 
 **MyRadioGroup.**
 ```xml
@@ -884,22 +673,6 @@ layout_marginTop:10dp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/23.MyRadioButton.jpg)|
 |--|
-|MyParentRadioGroup->
-layout_marginTop:10dp
-MyParentRadioGroup->
-layout_marginTop:10dp
-textSize:16sp
-MyRadioGroup->
-layout_marginTop:10dp
-textSize:16sp
-orientation:vertical
-layout_weight:1
-paddingStart:-5dp
-MyRadioButton->
-textSize:16sp|
-<br>
-
----
 
 **MyRadioGroup.**
 ```xml
@@ -993,22 +766,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/24.MyRadioButton_Horizontal.jpg)|
 |--|
-|MyParentRadioGroup->
-layout_marginTop:10dp
-MyParentRadioGroup->
-layout_marginTop:10dp
-textSize:16sp
-MyRadioGroup->
-layout_marginTop:10dp
-textSize:16sp
-orientation:vertical
-layout_weight:1
-paddingStart:-5dp
-MyRadioButton->
-textSize:16sp|
-<br>
-
----
 
 **MyRadioGroup.**
 ```xml
@@ -1046,13 +803,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/25.MyRadioButton_Horizontal_Title.jpg)|
 |--|
-|MyRadioGroup->
-layout_marginStart:10dp
-layout_marginEnd:-4dp
-textSize:16sp|
-<br>
-
----
 
 **MyEditText.**
 ```xml
@@ -1068,20 +818,6 @@ textSize:16sp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/26.MyTextEditText.jpg)|
 |--|
-|MyTextEditText->
-layout_marginTop:10dp
-textSize:16sp
-MyEditText->
-layout_marginTop:-8dp
-layout_marginStart:-4dp
-layout_marginEnd:-4dp
-textSize:16sp
-inputType:textImeMultiLine
-lines:3
-minLines:3|
-<br>
-
----
 
 **MyEditText_Horizontal.**
 ```xml
@@ -1103,16 +839,6 @@ minLines:3|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/28.MyEditText_Horizontal.jpg)|
 |--|
-|MyEditText_Horizontal->
-layout_marginStart:10dp
-layout_marginEnd:-4dp
-textSize:16sp
-inputType:textImeMultiLine
-lines:3
-minLines:3|
-<br>
-
----
 
 **MyCheckBox.**
 ```xml
@@ -1127,16 +853,6 @@ minLines:3|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/29.MyCheckBoxText.jpg)|
 |--|
-|MyCheckBoxText->
-layout_marginTop:10dp
-textSize:16sp
-MyCheckBox->
-layout_height:25dp
-textSize:16sp
-layout_marginStart:-7dp|
-<br>
-
----
 
 **MyCheckBox.**
 ```xml
@@ -1155,16 +871,6 @@ layout_marginStart:-7dp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg)|
 |--|
-|MyParentCheckBox->
-layout_marginTop:10dp
-textSize:16sp
-MyCheckBox_Horizontal->
-layout_height:25dp
-textSize:16sp
-layout_marginStart:10dp|
-<br>
-
----
 
 **MyCheckBox.**
 ```xml
@@ -1176,12 +882,6 @@ layout_marginStart:10dp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg)|
 |--|
-|MyBottomNavigationView->
-itemIconTint:#6200EE
-itemTextColor:#6200EE|
-<br>
-
----
 
 **MyCheckBox.**
 ```xml
@@ -1200,16 +900,6 @@ itemTextColor:#6200EE|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg)|
 |--|
-|MyParentCheckBox->
-layout_marginTop:10dp
-textSize:16sp
-MyCheckBox_Horizontal->
-layout_height:25dp
-textSize:16sp
-layout_marginStart:10dp|
-<br>
-
----
 
 **MyCheckBox.**
 ```xml
@@ -1221,12 +911,6 @@ layout_marginStart:10dp|
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg)|
 |--|
-|MyBottomNavigationView->
-itemIconTint:#6200EE
-itemTextColor:#6200EE|
-<br>
-
----
 
 **MyParentTypeCardEdge.**
 ```xml
@@ -1306,49 +990,6 @@ btn_popup.setOnClickListener {
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg)|
 |--|
-|MyAppbarLayout->
-background:transparent 
-elevation:0dp
-MyAppbarLayout->
-layout_width:match_parent 
-layout_height:?actionBarSize
-contentInsetLeft:0dp
-contentInsetStart:0dp
-MyCostumToolbarImage->
-backgroundTint:transparent 
-layout_width:24dp 
-layout_height:24dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-MyCostumToolbarTitle->
-textAlignment:center
-textStyle:bold
-layout_weight:1
-textSize:18dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-MyOptionMenu->
-backgroundTint:transparent
-layout_width:24dp 
-layout_height:24dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-layout_marginEnd:10dp
-MyParentTypeCardEdge->
-padding:16dp
-layout_marginLeft:16dp
-layout_marginRight:16dp
-layout_marginBottom:16dp
-orientation:orientation
-MyBottomNavigationView->
-itemIconTint:#6200EE
-itemTextColor:#6200EE|
-<br>
-
----
 
 **FullExample.**
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example3.jpg)|
