@@ -14,6 +14,12 @@
 
 ---
 
+**FullExample.**
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example3.jpg)|
+|--|--|--|
+
+---
+
 ### Feature List
 - [x] TextView
 - [x] TextInputLayout
