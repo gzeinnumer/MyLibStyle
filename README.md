@@ -583,92 +583,21 @@ Preview:
 
 **MyRadioGroup.**
 ```xml
-<LinearLayout
-    style="@style/MyParentRadioGroup"
-    android:orientation="vertical">
+<RadioGroup
+    android:id="@+id/rg"
+    style="@style/MyRadioGroup"
+    android:checkedButton="@+id/first">
 
-    <TextView
-        style="@style/MyTextHeader"
-        android:text="MyTextHeader" />
+    <RadioButton
+        android:id="@+id/first"
+        style="@style/MyRadioButton"
+        android:text="MyRadioButton" />
 
-    <TextView
-        style="@style/MyRadioGroupText"
-        android:text="MyRadioGroupText" />
-
-    <RadioGroup
-        android:id="@+id/rg"
-        style="@style/MyRadioGroup"
-        android:checkedButton="@+id/first">
-
-        <RadioButton
-            android:id="@+id/first"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-
-        <RadioButton
-            android:id="@+id/second"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-    </RadioGroup>
-
-    <TextView
-        style="@style/MyRadioGroupText"
-        android:text="MyRadioGroupText" />
-
-    <RadioGroup
-        android:id="@+id/rg_1"
-        style="@style/MyRadioGroup"
-        android:checkedButton="@+id/first_1"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/first_1"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-
-        <RadioButton
-            android:id="@+id/second_1"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-    </RadioGroup>
-
-    <View style="@style/MyDivider" />
-
-    <TextView
-        style="@style/MyTextHeader"
-        android:text="MyTextHeader" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical">
-
-        <TextView
-            style="@style/MyTextContent"
-            android:layout_gravity="center|left"
-            android:layout_marginTop="3dp"
-            android:layout_weight="1"
-            android:text="MyTextContent" />
-
-        <RadioGroup
-            android:id="@+id/rg_2"
-            style="@style/MyRadioGroup"
-            android:layout_weight="1"
-            android:checkedButton="@+id/first_2"
-            android:orientation="horizontal">
-
-            <RadioButton
-                android:id="@+id/first_2"
-                style="@style/MyRadioButton"
-                android:text="MyRadioButton" />
-
-            <RadioButton
-                android:id="@+id/second_2"
-                style="@style/MyRadioButton"
-                android:text="MyRadioButton" />
-        </RadioGroup>
-    </LinearLayout>
-</LinearLayout>
+    <RadioButton
+        android:id="@+id/second"
+        style="@style/MyRadioButton"
+        android:text="MyRadioButton" />
+</RadioGroup>
 ```
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/23.MyRadioButton.jpg)|
@@ -676,92 +605,26 @@ Preview:
 
 **MyRadioGroup.**
 ```xml
-<LinearLayout
-    style="@style/MyParentRadioGroup"
-    android:orientation="vertical">
+<TextView
+    style="@style/MyRadioGroupText"
+    android:text="MyRadioGroupText" />
 
-    <TextView
-        style="@style/MyTextHeader"
-        android:text="MyTextHeader" />
+<RadioGroup
+    android:id="@+id/rg_1"
+    style="@style/MyRadioGroup"
+    android:checkedButton="@+id/first_1"
+    android:orientation="horizontal">
 
-    <TextView
-        style="@style/MyRadioGroupText"
-        android:text="MyRadioGroupText" />
+    <RadioButton
+        android:id="@+id/first_1"
+        style="@style/MyRadioButton"
+        android:text="MyRadioButton" />
 
-    <RadioGroup
-        android:id="@+id/rg"
-        style="@style/MyRadioGroup"
-        android:checkedButton="@+id/first">
-
-        <RadioButton
-            android:id="@+id/first"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-
-        <RadioButton
-            android:id="@+id/second"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-    </RadioGroup>
-
-    <TextView
-        style="@style/MyRadioGroupText"
-        android:text="MyRadioGroupText" />
-
-    <RadioGroup
-        android:id="@+id/rg_1"
-        style="@style/MyRadioGroup"
-        android:checkedButton="@+id/first_1"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/first_1"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-
-        <RadioButton
-            android:id="@+id/second_1"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-    </RadioGroup>
-
-    <View style="@style/MyDivider" />
-
-    <TextView
-        style="@style/MyTextHeader"
-        android:text="MyTextHeader" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical">
-
-        <TextView
-            style="@style/MyTextContent"
-            android:layout_gravity="center|left"
-            android:layout_marginTop="3dp"
-            android:layout_weight="1"
-            android:text="MyTextContent" />
-
-        <RadioGroup
-            android:id="@+id/rg_2"
-            style="@style/MyRadioGroup"
-            android:layout_weight="1"
-            android:checkedButton="@+id/first_2"
-            android:orientation="horizontal">
-
-            <RadioButton
-                android:id="@+id/first_2"
-                style="@style/MyRadioButton"
-                android:text="MyRadioButton" />
-
-            <RadioButton
-                android:id="@+id/second_2"
-                style="@style/MyRadioButton"
-                android:text="MyRadioButton" />
-        </RadioGroup>
-    </LinearLayout>
-</LinearLayout>
+    <RadioButton
+        android:id="@+id/second_1"
+        style="@style/MyRadioButton"
+        android:text="MyRadioButton" />
+</RadioGroup>
 ```
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/24.MyRadioButton_Horizontal.jpg)|
@@ -769,6 +632,10 @@ Preview:
 
 **MyRadioGroup.**
 ```xml
+<TextView
+    style="@style/MyTextHeader"
+    android:text="MyTextHeader" />
+
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -990,10 +857,6 @@ btn_popup.setOnClickListener {
 Preview:
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg)|
 |--|
-
-**FullExample.**
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example3.jpg)|
-|--|--|--|
 ---
 
 ```
