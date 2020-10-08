@@ -103,7 +103,7 @@ Custom sendiri :
     android:textSize="36sp" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_3.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_2.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_3.jpg" width="500"/>|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_2.jpg" width="500"/>|
 |--|--|
 |Default|Custom|
 
@@ -141,7 +141,7 @@ Preview:
 </com.google.android.material.appbar.AppBarLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg" width="500"/>|
 |--|
 
 **MyTopHeader.**
@@ -152,7 +152,7 @@ Preview:
     android:text="MyTopHeader : MainActivity" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyTopHeader.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyTopHeader.jpg" width="500"/>|
 |--|
 
 **MyTextHeader.**
@@ -162,7 +162,7 @@ Preview:
     android:text="MyTextHeader" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg" width="500"/>|
 |--|
 
 **MyTextContent.**
@@ -172,7 +172,7 @@ Preview:
     android:text="MyTextContent" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg" width="500"/>|
 |--|
 
 **MyTextInputLayoutOutlinedBox.**
@@ -190,7 +190,7 @@ Preview:
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/3.MyTextIputLayoutOutlinedBox_Pass.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/3.MyTextIputLayoutOutlinedBox_Pass.jpg" width="500"/>|
 |--|
 
 **MyTextInputLayoutOutlinedBoxNext.**
@@ -206,7 +206,7 @@ Preview:
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/4.MyTextIputLayoutOutlinedBoxNext.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/4.MyTextIputLayoutOutlinedBoxNext.jpg" width="500"/>|
 |--|
 
 **MyTextInputLayoutOutlinedBoxNext.**
@@ -223,7 +223,7 @@ Preview:
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/5.MyTextIputLayoutOutlinedBoxNext_Man.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/5.MyTextIputLayoutOutlinedBoxNext_Man.jpg" width="500"/>|
 |--|
 
 **MyTextInputLayoutFilledBox.**
@@ -239,7 +239,7 @@ Preview:
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/6.MyTextIputLayoutFilledBox.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/6.MyTextIputLayoutFilledBox.jpg" width="500"/>|
 |--|
 
 **MyTextInputLayoutFilledBoxNext.**
@@ -256,7 +256,7 @@ Preview:
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/7.MyTextIputLayoutFilledBoxNext_Icon.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/7.MyTextIputLayoutFilledBoxNext_Icon.jpg" width="500"/>|
 |--|
 
 **MyTextInputLayoutOutlinedBoxNext.**
@@ -277,7 +277,7 @@ Preview:
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/8.MyTextIputLayoutOutlinedBoxNext_Helper.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/8.MyTextIputLayoutOutlinedBoxNext_Helper.jpg" width="500"/>|
 |--|
 
 **MyTextInputLayoutFilledBox.**
@@ -294,7 +294,7 @@ Preview:
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/9.MyTextIputLayoutFilledBox_Man.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/9.MyTextIputLayoutFilledBox_Man.jpg" width="500"/>|
 |--|
 
 **MyButtonOutlined.**
@@ -311,7 +311,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/10.MyButtonOutlined.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/10.MyButtonOutlined.jpg" width="500"/>|
 |--|
 
 **MyButtonText.**
@@ -328,7 +328,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/11.MyButtonText.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/11.MyButtonText.jpg" width="500"/>|
 |--|
 
 **MyButtonContained.**
@@ -345,7 +345,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/12.MyButtonContained.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/12.MyButtonContained.jpg" width="500"/>|
 |--|
 
 **MyButtonIcon.**
@@ -363,7 +363,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/13.MyButtonIcon.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/13.MyButtonIcon.jpg" width="500"/>|
 |--|
 
 **MyAutoCompleteTextViewFilledBox.**
@@ -386,11 +386,11 @@ material_spinner_1.setAdapter(myAdapter)
 ```
 
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox.jpg" width="500"/>|
 |--|
 
 OnClick:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg" width="500"/>|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg" width="500"/>|
 |--|--|
 
 **MyAutoCompleteTextViewOutlineBox.**
@@ -413,11 +413,11 @@ material_spinner_2.setAdapter(myAdapter)
 ```
 
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox.jpg" width="500"/>|
 |--|
 
 OnClick:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox_Example.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox_Example.jpg" width="500"/>|
 |--|
 
 **MySpinner.**
@@ -446,11 +446,11 @@ material_spinner_4.adapter = myAdapter
 ```
 
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog.jpg" width="500"/>|
 |--|
 
 OnClick:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog_Example.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog_Example.jpg" width="500"/>|
 |--|
 
 **MySpinner.**
@@ -479,7 +479,7 @@ material_spinner_5.adapter = myAdapter
 ```
 
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown.jpg" width="500"/>|
 |--|
 
 **MyImageFoto.**
@@ -502,7 +502,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/18.TextRequired.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/18.TextRequired.jpg" width="500"/>|
 |--|
 
 **MyImageFoto.**
@@ -550,7 +550,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/19.TakeFoto.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/19.TakeFoto.jpg" width="500"/>|
 |--|
 
 **MyImageFoto.**
@@ -570,7 +570,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/20.IconImage.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/20.IconImage.jpg" width="500"/>|
 |--|
 
 **MyDivider.**
@@ -578,7 +578,7 @@ Preview:
 <View style="@style/MyDivider" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/21.MyDivider.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/21.MyDivider.jpg" width="500"/>|
 |--|
 
 **MyRadioGroup.**
@@ -600,7 +600,7 @@ Preview:
 </RadioGroup>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/23.MyRadioButton.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/23.MyRadioButton.jpg" width="500"/>|
 |--|
 
 **MyRadioGroup.**
@@ -627,7 +627,7 @@ Preview:
 </RadioGroup>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/24.MyRadioButton_Horizontal.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/24.MyRadioButton_Horizontal.jpg" width="500"/>|
 |--|
 
 **MyRadioGroup.**
@@ -668,7 +668,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/25.MyRadioButton_Horizontal_Title.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/25.MyRadioButton_Horizontal_Title.jpg" width="500"/>|
 |--|
 
 **MyEditText.**
@@ -683,7 +683,7 @@ Preview:
     android:hint="MyEditText" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/26.MyTextEditText.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/26.MyTextEditText.jpg" width="500"/>|
 |--|
 
 **MyEditText_Horizontal.**
@@ -704,7 +704,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/28.MyEditText_Horizontal.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/28.MyEditText_Horizontal.jpg" width="500"/>|
 |--|
 
 **MyCheckBox.**
@@ -718,7 +718,7 @@ Preview:
     android:text="MyCheckBox" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/29.MyCheckBoxText.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/29.MyCheckBoxText.jpg" width="500"/>|
 |--|
 
 **MyCheckBox.**
@@ -736,7 +736,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg" width="500"/>|
 |--|
 
 **MyCheckBox.**
@@ -747,7 +747,7 @@ Preview:
     app:menu="@menu/mygzn_bottom_nav" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg" width="500"/>|
 |--|
 
 **MyCheckBox.**
@@ -765,7 +765,7 @@ Preview:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg" width="500"/>|
 |--|
 
 **MyCheckBox.**
@@ -776,7 +776,7 @@ Preview:
     app:menu="@menu/mygzn_bottom_nav" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg" width="500"/>|
 |--|
 
 **MyParentTypeCardEdge.**
@@ -855,7 +855,7 @@ btn_popup.setOnClickListener {
 ```
 
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg" width="500"/>|
 |--|
 ---
 
