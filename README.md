@@ -43,9 +43,7 @@
 - [x] SearchSpinner
 - [x] Corner
 - [x] Popup
-- [ ] Dialog
-
----
+- [x] Dialog ([DOCS](https://github.com/gzeinnumer/MyLibDialog))
 
 ### Tech stack and 3rd library
 - Material.io ([docs](https://material.io/develop/android/docs/getting-started))
@@ -111,9 +109,12 @@ Custom sendiri :
     android:textSize="36sp" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_3.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_2.jpg)|
+
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_3.jpg" width="400"/>|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent_2.jpg" width="400"/>|
 |--|--|
 |Default|Custom|
+
+#
 
 **MyAppbarLayout.**
 ```xml
@@ -149,42 +150,11 @@ Preview:
 </com.google.android.material.appbar.AppBarLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg)|
-|--|
-|MyAppbarLayout->
-background:transparent 
-elevation:0dp
-MyAppbarLayout->
-layout_width:match_parent 
-layout_height:?actionBarSize
-contentInsetLeft:0dp
-contentInsetStart:0dp
-MyCostumToolbarImage->
-backgroundTint:transparent 
-layout_width:24dp 
-layout_height:24dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-MyCostumToolbarTitle->
-textAlignment:center
-textStyle:bold
-layout_weight:1
-textSize:18dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-MyOptionMenu->
-backgroundTint:transparent
-layout_width:24dp 
-layout_height:24dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-layout_marginEnd:10dp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyTopHeader.**
 ```xml
@@ -194,17 +164,11 @@ layout_marginEnd:10dp|
     android:text="MyTopHeader : MainActivity" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyTopHeader.jpg)|
-|--|
-|MyTopHeader->
-layout_width:match_parent 
-layout_height:40dp
-gravity:center
-textColor:#000
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/_1.MyTopHeader.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyTextHeader.**
 ```xml
@@ -213,14 +177,11 @@ textSize:16sp|
     android:text="MyTextHeader" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg)|
-|--|
-|textStyle:bold 
-textSize:16sp
-layout_marginTop:10dp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/1.MyTextHeader.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyTextContent.**
 ```xml
@@ -229,13 +190,11 @@ layout_marginTop:10dp|
     android:text="MyTextContent" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg)|
-|--|
-|textStyle:bold 
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/2.MyTextContent.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyTextInputLayoutOutlinedBox.**
 ```xml
@@ -252,15 +211,11 @@ textSize:16sp|
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/3.MyTextIputLayoutOutlinedBox_Pass.jpg)|
-|--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/3.MyTextIputLayoutOutlinedBox_Pass.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyTextInputLayoutOutlinedBoxNext.**
 ```xml
@@ -275,15 +230,11 @@ textSize:16sp|
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/4.MyTextIputLayoutOutlinedBoxNext.jpg)|
-|--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/4.MyTextIputLayoutOutlinedBoxNext.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyTextInputLayoutOutlinedBoxNext.**
 ```xml
@@ -299,15 +250,11 @@ textSize:16sp|
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/5.MyTextIputLayoutOutlinedBoxNext_Man.jpg)|
-|--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/5.MyTextIputLayoutOutlinedBoxNext_Man.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyTextInputLayoutFilledBox.**
 ```xml
@@ -322,15 +269,11 @@ textSize:16sp|
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/6.MyTextIputLayoutFilledBox.jpg)|
-|--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/6.MyTextIputLayoutFilledBox.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyTextInputLayoutFilledBoxNext.**
 ```xml
@@ -346,15 +289,11 @@ textSize:16sp|
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/7.MyTextIputLayoutFilledBoxNext_Icon.jpg)|
-|--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/7.MyTextIputLayoutFilledBoxNext_Icon.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyTextInputLayoutOutlinedBoxNext.**
 ```xml
@@ -374,15 +313,11 @@ textSize:16sp|
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/8.MyTextIputLayoutOutlinedBoxNext_Helper.jpg)|
-|--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/8.MyTextIputLayoutOutlinedBoxNext_Helper.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyTextInputLayoutFilledBox.**
 ```xml
@@ -398,15 +333,11 @@ textSize:16sp|
 </com.google.android.material.textfield.TextInputLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/9.MyTextIputLayoutFilledBox_Man.jpg)|
-|--|
-|TextInputLayout->
-layout_marginTop:10dp 
-MyTextInputEditText->
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/9.MyTextIputLayoutFilledBox_Man.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyButtonOutlined.**
 ```xml
@@ -422,15 +353,11 @@ textSize:16sp|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/10.MyButtonOutlined.jpg)|
-|--|
-|MyParentButton->
-layout_marginTop:10dp 
-MyButtonOutlined->
-layout_height:48dp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/10.MyButtonOutlined.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyButtonText.**
 ```xml
@@ -446,15 +373,11 @@ layout_height:48dp|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/11.MyButtonText.jpg)|
-|--|
-|MyParentButton->
-layout_marginTop:10dp 
-MyButtonText->
-layout_height:48dp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/11.MyButtonText.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyButtonContained.**
 ```xml
@@ -470,15 +393,11 @@ layout_height:48dp|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/12.MyButtonContained.jpg)|
-|--|
-|MyParentButton->
-layout_marginTop:10dp 
-MyButtonContained->
-layout_height:48dp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/12.MyButtonContained.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyButtonIcon.**
 ```xml
@@ -495,15 +414,11 @@ layout_height:48dp|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/13.MyButtonIcon.jpg)|
-|--|
-|MyParentButton->
-layout_marginTop:10dp 
-MyButtonIcon->
-layout_height:48dp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/13.MyButtonIcon.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyAutoCompleteTextViewFilledBox.**
 ```xml
@@ -525,21 +440,15 @@ material_spinner_1.setAdapter(myAdapter)
 ```
 
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox.jpg)|
-|--|
-|MyAutoCompleteTextViewFilledBox->
-layout_marginTop:10dp 
-MyAutoCompleteTextView->
-editable:false
-inputType:none
-textSize:16sp|
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox.jpg" width="400"/>
+</p>
 
 OnClick:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg)|
+|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg" width="400"/>|<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg" width="400"/>|
 |--|--|
-<br>
 
----
+#
 
 **MyAutoCompleteTextViewOutlineBox.**
 ```xml
@@ -561,22 +470,16 @@ material_spinner_2.setAdapter(myAdapter)
 ```
 
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox.jpg)|
-|--|
-|MyAutoCompleteTextViewOutlineBox->
-layout_marginTop:10dp 
-MyAutoCompleteTextView->
-editable:false
-inputType:none
-textSize:16sp|
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox.jpg" width="400"/>
+</p>
 
 OnClick:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox_Example.jpg)|
-|--|
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox_Example.jpg" width="400"/>
+</p>
 
-<br>
-
----
+#
 
 **MySpinner.**
 ```xml
@@ -604,17 +507,16 @@ material_spinner_4.adapter = myAdapter
 ```
 
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog.jpg)|
-|--|
-|MyParentSpinner->
-layout_marginTop:10dp|
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog.jpg" width="400"/>
+</p>
 
 OnClick:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog_Example.jpg)|
-|--|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/16.Dialog_Example.jpg" width="400"/>
+</p>
 
----
+#
 
 **MySpinner.**
 ```xml
@@ -642,17 +544,11 @@ material_spinner_5.adapter = myAdapter
 ```
 
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown.jpg)|
-|--|
-|MyParentSpinner->
-layout_marginTop:10dp|
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown.jpg" width="400"/>
+</p>
 
-OnClick:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/17.Dropdown_Example.jpg)|
-|--|
-<br>
-
----
+#
 
 **MyImageFoto.**
 ```xml
@@ -674,26 +570,11 @@ OnClick:
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/18.TextRequired.jpg)|
-|--|
-|MyImageFoto->
-layout_marginTop:10dp
-paddingStart:8dp
-paddingEnd:8dp
-gravity:center
-orientation:vertical
-MyTextRequired->
-text:*Required
-textStyle:italic
-textSize:11sp
-textColor:#F44336
-MyImageFotoText->
-text:Take Foto
-textStyle:itelic
-textSize:11sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/18.TextRequired.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyImageFoto.**
 ```xml
@@ -740,21 +621,11 @@ textSize:11sp|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/19.TextFoto.jpg)|
-|--|
-|MyImageFoto->
-layout_marginTop:10dp
-paddingStart:8dp
-paddingEnd:8dp
-gravity:center
-orientation:vertical
-MyImageFotoText->
-text:Take Foto
-textStyle:itelic
-textSize:11sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/19.TakeFoto.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyImageFoto.**
 ```xml
@@ -773,251 +644,84 @@ textSize:11sp|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/20.IconImage.jpg)|
-|--|
-|MyImageFotoPreview->
-layout_margin:8dp
-layout_width:70dp
-layout_height:70dp
-layout_gravity:center|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/20.IconImage.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyDivider.**
 ```xml
 <View style="@style/MyDivider" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/21.MyDivider.jpg)|
-|--|
-|MyDivider->
-layout_height:0.8dp
-layout_marginTop:10dp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/21.MyDivider.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyRadioGroup.**
 ```xml
-<LinearLayout
-    style="@style/MyParentRadioGroup"
-    android:orientation="vertical">
+<RadioGroup
+    android:id="@+id/rg"
+    style="@style/MyRadioGroup"
+    android:checkedButton="@+id/first">
 
-    <TextView
-        style="@style/MyTextHeader"
-        android:text="MyTextHeader" />
+    <RadioButton
+        android:id="@+id/first"
+        style="@style/MyRadioButton"
+        android:text="MyRadioButton" />
 
-    <TextView
-        style="@style/MyRadioGroupText"
-        android:text="MyRadioGroupText" />
-
-    <RadioGroup
-        android:id="@+id/rg"
-        style="@style/MyRadioGroup"
-        android:checkedButton="@+id/first">
-
-        <RadioButton
-            android:id="@+id/first"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-
-        <RadioButton
-            android:id="@+id/second"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-    </RadioGroup>
-
-    <TextView
-        style="@style/MyRadioGroupText"
-        android:text="MyRadioGroupText" />
-
-    <RadioGroup
-        android:id="@+id/rg_1"
-        style="@style/MyRadioGroup"
-        android:checkedButton="@+id/first_1"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/first_1"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-
-        <RadioButton
-            android:id="@+id/second_1"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-    </RadioGroup>
-
-    <View style="@style/MyDivider" />
-
-    <TextView
-        style="@style/MyTextHeader"
-        android:text="MyTextHeader" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical">
-
-        <TextView
-            style="@style/MyTextContent"
-            android:layout_gravity="center|left"
-            android:layout_marginTop="3dp"
-            android:layout_weight="1"
-            android:text="MyTextContent" />
-
-        <RadioGroup
-            android:id="@+id/rg_2"
-            style="@style/MyRadioGroup"
-            android:layout_weight="1"
-            android:checkedButton="@+id/first_2"
-            android:orientation="horizontal">
-
-            <RadioButton
-                android:id="@+id/first_2"
-                style="@style/MyRadioButton"
-                android:text="MyRadioButton" />
-
-            <RadioButton
-                android:id="@+id/second_2"
-                style="@style/MyRadioButton"
-                android:text="MyRadioButton" />
-        </RadioGroup>
-    </LinearLayout>
-</LinearLayout>
+    <RadioButton
+        android:id="@+id/second"
+        style="@style/MyRadioButton"
+        android:text="MyRadioButton" />
+</RadioGroup>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/23.MyRadioButton.jpg)|
-|--|
-|MyParentRadioGroup->
-layout_marginTop:10dp
-MyParentRadioGroup->
-layout_marginTop:10dp
-textSize:16sp
-MyRadioGroup->
-layout_marginTop:10dp
-textSize:16sp
-orientation:vertical
-layout_weight:1
-paddingStart:-5dp
-MyRadioButton->
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/23.MyRadioButton.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyRadioGroup.**
 ```xml
-<LinearLayout
-    style="@style/MyParentRadioGroup"
-    android:orientation="vertical">
+<TextView
+    style="@style/MyRadioGroupText"
+    android:text="MyRadioGroupText" />
 
-    <TextView
-        style="@style/MyTextHeader"
-        android:text="MyTextHeader" />
+<RadioGroup
+    android:id="@+id/rg_1"
+    style="@style/MyRadioGroup"
+    android:checkedButton="@+id/first_1"
+    android:orientation="horizontal">
 
-    <TextView
-        style="@style/MyRadioGroupText"
-        android:text="MyRadioGroupText" />
+    <RadioButton
+        android:id="@+id/first_1"
+        style="@style/MyRadioButton"
+        android:text="MyRadioButton" />
 
-    <RadioGroup
-        android:id="@+id/rg"
-        style="@style/MyRadioGroup"
-        android:checkedButton="@+id/first">
-
-        <RadioButton
-            android:id="@+id/first"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-
-        <RadioButton
-            android:id="@+id/second"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-    </RadioGroup>
-
-    <TextView
-        style="@style/MyRadioGroupText"
-        android:text="MyRadioGroupText" />
-
-    <RadioGroup
-        android:id="@+id/rg_1"
-        style="@style/MyRadioGroup"
-        android:checkedButton="@+id/first_1"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/first_1"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-
-        <RadioButton
-            android:id="@+id/second_1"
-            style="@style/MyRadioButton"
-            android:text="MyRadioButton" />
-    </RadioGroup>
-
-    <View style="@style/MyDivider" />
-
-    <TextView
-        style="@style/MyTextHeader"
-        android:text="MyTextHeader" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical">
-
-        <TextView
-            style="@style/MyTextContent"
-            android:layout_gravity="center|left"
-            android:layout_marginTop="3dp"
-            android:layout_weight="1"
-            android:text="MyTextContent" />
-
-        <RadioGroup
-            android:id="@+id/rg_2"
-            style="@style/MyRadioGroup"
-            android:layout_weight="1"
-            android:checkedButton="@+id/first_2"
-            android:orientation="horizontal">
-
-            <RadioButton
-                android:id="@+id/first_2"
-                style="@style/MyRadioButton"
-                android:text="MyRadioButton" />
-
-            <RadioButton
-                android:id="@+id/second_2"
-                style="@style/MyRadioButton"
-                android:text="MyRadioButton" />
-        </RadioGroup>
-    </LinearLayout>
-</LinearLayout>
+    <RadioButton
+        android:id="@+id/second_1"
+        style="@style/MyRadioButton"
+        android:text="MyRadioButton" />
+</RadioGroup>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/24.MyRadioButton_Horizontal.jpg)|
-|--|
-|MyParentRadioGroup->
-layout_marginTop:10dp
-MyParentRadioGroup->
-layout_marginTop:10dp
-textSize:16sp
-MyRadioGroup->
-layout_marginTop:10dp
-textSize:16sp
-orientation:vertical
-layout_weight:1
-paddingStart:-5dp
-MyRadioButton->
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/24.MyRadioButton_Horizontal.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyRadioGroup.**
 ```xml
+<TextView
+    style="@style/MyTextHeader"
+    android:text="MyTextHeader" />
+
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -1050,15 +754,11 @@ textSize:16sp|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/25.MyRadioButton_Horizontal_Title.jpg)|
-|--|
-|MyRadioGroup->
-layout_marginStart:10dp
-layout_marginEnd:-4dp
-textSize:16sp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/25.MyRadioButton_Horizontal_Title.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyEditText.**
 ```xml
@@ -1072,22 +772,11 @@ textSize:16sp|
     android:hint="MyEditText" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/26.MyTextEditText.jpg)|
-|--|
-|MyTextEditText->
-layout_marginTop:10dp
-textSize:16sp
-MyEditText->
-layout_marginTop:-8dp
-layout_marginStart:-4dp
-layout_marginEnd:-4dp
-textSize:16sp
-inputType:textImeMultiLine
-lines:3
-minLines:3|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/26.MyTextEditText.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyEditText_Horizontal.**
 ```xml
@@ -1107,18 +796,11 @@ minLines:3|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/28.MyEditText_Horizontal.jpg)|
-|--|
-|MyEditText_Horizontal->
-layout_marginStart:10dp
-layout_marginEnd:-4dp
-textSize:16sp
-inputType:textImeMultiLine
-lines:3
-minLines:3|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/28.MyEditText_Horizontal.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyCheckBox.**
 ```xml
@@ -1131,18 +813,11 @@ minLines:3|
     android:text="MyCheckBox" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/29.MyCheckBoxText.jpg)|
-|--|
-|MyCheckBoxText->
-layout_marginTop:10dp
-textSize:16sp
-MyCheckBox->
-layout_height:25dp
-textSize:16sp
-layout_marginStart:-7dp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/29.MyCheckBoxText.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyCheckBox.**
 ```xml
@@ -1159,18 +834,11 @@ layout_marginStart:-7dp|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg)|
-|--|
-|MyParentCheckBox->
-layout_marginTop:10dp
-textSize:16sp
-MyCheckBox_Horizontal->
-layout_height:25dp
-textSize:16sp
-layout_marginStart:10dp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyCheckBox.**
 ```xml
@@ -1180,14 +848,11 @@ layout_marginStart:10dp|
     app:menu="@menu/mygzn_bottom_nav" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg)|
-|--|
-|MyBottomNavigationView->
-itemIconTint:#6200EE
-itemTextColor:#6200EE|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyCheckBox.**
 ```xml
@@ -1204,18 +869,11 @@ itemTextColor:#6200EE|
 </LinearLayout>
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg)|
-|--|
-|MyParentCheckBox->
-layout_marginTop:10dp
-textSize:16sp
-MyCheckBox_Horizontal->
-layout_height:25dp
-textSize:16sp
-layout_marginStart:10dp|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyCheckBox.**
 ```xml
@@ -1225,14 +883,11 @@ layout_marginStart:10dp|
     app:menu="@menu/mygzn_bottom_nav" />
 ```
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg)|
-|--|
-|MyBottomNavigationView->
-itemIconTint:#6200EE
-itemTextColor:#6200EE|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg" width="400"/>
+</p>
 
----
+#
 
 **MyParentTypeCardEdge.**
 ```xml
@@ -1310,49 +965,9 @@ btn_popup.setOnClickListener {
 ```
 
 Preview:
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg)|
-|--|
-|MyAppbarLayout->
-background:transparent 
-elevation:0dp
-MyAppbarLayout->
-layout_width:match_parent 
-layout_height:?actionBarSize
-contentInsetLeft:0dp
-contentInsetStart:0dp
-MyCostumToolbarImage->
-backgroundTint:transparent 
-layout_width:24dp 
-layout_height:24dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-MyCostumToolbarTitle->
-textAlignment:center
-textStyle:bold
-layout_weight:1
-textSize:18dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-MyOptionMenu->
-backgroundTint:transparent
-layout_width:24dp 
-layout_height:24dp
-layout_marginStart:10dp
-layout_marginTop:10dp
-layout_marginBottom:10dp
-layout_marginEnd:10dp
-MyParentTypeCardEdge->
-padding:16dp
-layout_marginLeft:16dp
-layout_marginRight:16dp
-layout_marginBottom:16dp
-orientation:orientation
-MyBottomNavigationView->
-itemIconTint:#6200EE
-itemTextColor:#6200EE|
-<br>
+<p align="center">
+<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg" width="400"/>
+</p>
 
 ---
 
