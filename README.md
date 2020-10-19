@@ -5,11 +5,11 @@
 <div align="center">
     <a><img src="https://img.shields.io/badge/Version-0.0.3-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
-    <a href="https://github.com/gzeinnumer"><img src="https://img.shields.io/github/followers/gzeinnumer?label=follow&style=social"></a>
-    <br>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
-    <p>Kumpulan Style siap pakai yang sering dipakai di development android dengan material.io, tujuan library ini hanya untuk menghilangkan pengulangan kode pada xml, jadi kamu bisa lebih fokus pada logika, dokumen ini dibuat berdasarkan pengalaman saya, kasih masukan kalau ada yang kurang. terimakasih karna sudah berkunjung</p>
+    <a href="https://github.com/gzeinnumer"><img src="https://img.shields.io/github/followers/gzeinnumer?label=follow&style=social"></a>
+    <br>
+    <p>Simple way to use Material.io</p>
 </div>
 
 ---
@@ -55,7 +55,7 @@
 Minimum Android SDK Version 16
 
 #### Gradle
-**Step 1.** tambahkan maven jitpack.io ke build.gradle (Project) :
+**Step 1.** add maven `jitpack.io` to build.gradle (Project) :
 ```gradle
 allprojects {
   repositories {
@@ -66,7 +66,7 @@ allprojects {
 }
 ```
 
-**Step 2.** tambahkan depedensi ke build.gradle (Module) : 
+**Step 2.** add dependensi ke build.gradle (Module) :
 ```gradle
 dependencies {
   implementation 'com.github.gzeinnumer:MyLibStyle:versi'
@@ -75,7 +75,7 @@ dependencies {
 
 ---
 
-**Langkah Awal**. Aktifkan `MaterialComponents` di style dengan cara mengganti parent dari `AppTheme` :
+**First Step**. Use as your base Style `MaterialComponents` in `style.xml` with change parent of `AppTheme` :
 
 ```xml
 <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
@@ -83,9 +83,9 @@ dependencies {
 </style>
 ```
 
-**Notes. Semua Style disini bisa kamu custom ulang dengan menambahkan atribut yang kamu inginkan, contoh :**
+**Notes. You can custom all style, example :**
 
-Default dari MyLibStyle : 
+Default from MyLibStyle :
 ```xml
 <TextView
     style="@style/MyTextHeader"
@@ -96,7 +96,7 @@ Default dari MyLibStyle :
     android:text="MyTextContent" />
 ```
 
-Custom sendiri : 
+Own Custom :
 ```xml
 <TextView
     style="@style/MyTextHeader"
