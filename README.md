@@ -20,6 +20,24 @@
 
 ---
 
+## Download
+Add maven `jitpack.io` and `dependencies` in `build.gradle (Project)` :
+```gradle
+// build.gradle project
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+
+// build.gradle app/module
+dependencies {
+  ...k
+  implementation 'com.github.gzeinnumer:MyLibStyle:version'
+}
+```
+
 ### Feature List
 - [x] TextView
 - [x] TextInputLayout
@@ -50,32 +68,7 @@
 
 ---
 
-## Download
-
-Minimum Android SDK Version 16
-
-#### Gradle
-**Step 1.** add maven `jitpack.io` to build.gradle (Project) :
-```gradle
-allprojects {
-  repositories {
-    google()
-    jcenter()
-    maven { url 'https://jitpack.io' }
-  }
-}
-```
-
-**Step 2.** add dependensi ke build.gradle (Module) :
-```gradle
-dependencies {
-  implementation 'com.github.gzeinnumer:MyLibStyle:versi'
-}
-```
-
----
-
-**First Step**. Use as your base Style `MaterialComponents` in `style.xml` with change parent of `AppTheme` :
+**First Step**. Use `MaterialComponents` in `style.xml` with change parent of `AppTheme` :
 
 ```xml
 <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
