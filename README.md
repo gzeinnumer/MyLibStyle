@@ -33,12 +33,12 @@ allprojects {
 
 // build.gradle app/module
 dependencies {
-  ...k
+  ...
   implementation 'com.github.gzeinnumer:MyLibStyle:version'
 }
 ```
 
-### Feature List
+## Feature List
 - [x] TextView
 - [x] TextInputLayout
 - [x] TextInputEditText
@@ -63,7 +63,7 @@ dependencies {
 - [x] Popup
 - [x] Dialog ([DOCS](https://github.com/gzeinnumer/MyLibDialog))
 
-### Tech stack and 3rd library
+## Tech stack and 3rd library
 - Material.io ([docs](https://material.io/develop/android/docs/getting-started))
 
 ---
