@@ -161,21 +161,25 @@
     <style name="MyButtonText" parent="Widget.MaterialComponents.Button.TextButton">
         <item name="android:layout_height">@dimen/button_height</item>
         <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
     </style>
 
     <style name="MyButtonOutlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:layout_height">@dimen/button_height</item>
         <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
     </style>
 
     <style name="MyButtonContained">
         <item name="android:layout_height">@dimen/button_height</item>
         <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
     </style>
 
     <style name="MyButtonIcon" parent="Widget.MaterialComponents.Button.Icon">
         <item name="android:layout_height">@dimen/button_height</item>
         <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
     </style>
 
     <style name="MyTextInputEditText">
