@@ -813,7 +813,7 @@ Preview:
 
 #
 
-**MyCheckBox.**
+**MyCheckBox_Horizontal.**
 ```xml
 <LinearLayout style="@style/MyParentCheckBox">
 
