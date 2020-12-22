@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-    <a><img src="https://img.shields.io/badge/Version-0.0.3-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-0.0.4-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
@@ -836,20 +836,6 @@ Preview:
 
 **MyCheckBox.**
 ```xml
-<com.google.android.material.bottomnavigation.BottomNavigationView
-    android:id="@+id/btn_nav"
-    style="@style/MyBottomNavigationView"
-    app:menu="@menu/mygzn_bottom_nav" />
-```
-Preview:
-<p align="center">
-<img src="https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/32.ButtonNav.jpg" width="400"/>
-</p>
-
-#
-
-**MyCheckBox.**
-```xml
 <LinearLayout style="@style/MyParentCheckBox">
 
     <TextView
@@ -869,7 +855,7 @@ Preview:
 
 #
 
-**MyCheckBox.**
+**MyBottomNavigationView.**
 ```xml
 <com.google.android.material.bottomnavigation.BottomNavigationView
     android:id="@+id/btn_nav"
