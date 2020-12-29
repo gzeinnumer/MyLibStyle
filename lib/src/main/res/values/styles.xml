@@ -68,6 +68,7 @@
         <item name="android:layout_weight">1</item>
         <item name="android:textSize">@dimen/h1</item>
         <item name="android:layout_marginStart">@dimen/text_margin</item>
+        <item name="android:layout_marginEnd">@dimen/text_margin</item>
         <item name="android:layout_marginTop">@dimen/text_margin</item>
         <item name="android:layout_marginBottom">@dimen/text_margin</item>
     </style>
@@ -82,14 +83,12 @@
         <item name="android:layout_marginStart">@dimen/text_margin</item>
         <item name="android:layout_marginTop">@dimen/text_margin</item>
         <item name="android:layout_marginBottom">@dimen/text_margin</item>
-        <item name="android:layout_marginEnd">16dp</item>
     </style>
 
     <style name="MyOptionMenu">
         <item name="android:backgroundTint">@android:color/transparent</item>
         <item name="android:layout_width">24dp</item>
         <item name="android:layout_height">24dp</item>
-        <item name="android:layout_marginStart">@dimen/text_margin</item>
         <item name="android:layout_marginTop">@dimen/text_margin</item>
         <item name="android:layout_marginBottom">@dimen/text_margin</item>
         <item name="android:layout_marginEnd">@dimen/text_margin</item>
