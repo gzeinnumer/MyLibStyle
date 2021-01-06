@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-    <a><img src="https://img.shields.io/badge/Version-0.0.6-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-0.0.7-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
@@ -956,6 +956,8 @@ Preview:
   - First Release
 - **0.0.6**
   - Font Style
+- **0.0.7**
+  - Icon Foto
 
 ---
 
