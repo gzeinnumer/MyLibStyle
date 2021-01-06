@@ -9,19 +9,19 @@
     </style>
 
     <style name="BaseTextView">
-<!--        <item name="android:fontFamily">@font/segoe_ui</item>-->
+        <item name="android:fontFamily">@font/segoe_ui</item>
     </style>
 
     <style name="BaseTextView.Bold" parent="BaseTextView">
-<!--        <item name="android:fontFamily">@font/segoe_ui_bold</item>-->
+        <item name="android:fontFamily">@font/segoe_ui_bold</item>
     </style>
 
     <style name="BaseTextView.Italic" parent="BaseTextView">
-<!--        <item name="android:fontFamily">@font/segoe_ui_italic</item>-->
+        <item name="android:fontFamily">@font/segoe_ui_italic</item>
     </style>
 
     <style name="BaseTextView.Bold.Italic" parent="BaseTextView">
-<!--        <item name="android:fontFamily">@font/segoe_ui_bold_italic</item>-->
+        <item name="android:fontFamily">@font/segoe_ui_bold_italic</item>
     </style>
 
     <style name="MyDivider">
