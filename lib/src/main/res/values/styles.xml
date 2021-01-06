@@ -9,19 +9,19 @@
     </style>
 
     <style name="BaseTextView">
-        <item name="android:fontFamily">@font/segoe_ui</item>
+<!--        <item name="android:fontFamily">@font/segoe_ui</item>-->
     </style>
 
     <style name="BaseTextView.Bold" parent="BaseTextView">
-        <item name="android:fontFamily">@font/segoe_ui_bold</item>
+        <!--        <item name="android:fontFamily">@font/segoe_ui_bold</item>-->
     </style>
 
     <style name="BaseTextView.Italic" parent="BaseTextView">
-        <item name="android:fontFamily">@font/segoe_ui_italic</item>
+        <!--        <item name="android:fontFamily">@font/segoe_ui_italic</item>-->
     </style>
 
     <style name="BaseTextView.Bold.Italic" parent="BaseTextView">
-        <item name="android:fontFamily">@font/segoe_ui_bold_italic</item>
+        <!--        <item name="android:fontFamily">@font/segoe_ui_bold_italic</item>-->
     </style>
 
     <style name="MyDivider">
@@ -384,6 +384,7 @@
         <item name="android:layout_width">@dimen/img_display</item>
         <item name="android:layout_height">@dimen/img_display</item>
         <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/def_margin_half</item>
         <item name="android:layout_margin">@dimen/def_margin_half</item>
         <item name="android:background">@drawable/mygzn_image_preview</item>
         <item name="android:src">@drawable/mygzn_image_preview_icon</item>
