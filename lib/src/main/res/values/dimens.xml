@@ -30,4 +30,7 @@
     <dimen name="img_display">70dp</dimen>
     <dimen name="def_margin">16dp</dimen>
     <dimen name="def_margin_half">8dp</dimen>
+    <dimen name="radius">10dp</dimen>
+    <dimen name="space">10dp</dimen>
+    <dimen name="space_half">5dp</dimen>
 </resources>
