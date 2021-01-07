@@ -38,6 +38,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
@@ -46,5 +47,10 @@
             style="@style/MyImageFotoPreview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/MyButtonContained"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </LinearLayout>
