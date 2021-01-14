@@ -14,6 +14,7 @@
     <color name="grey_text">#363636</color>
     <color name="grey_light_text">#888888</color>
     <color name="grey_disabled">#A8A8A8</color>
+    <color name="disabled_grey_light">#D3D3D3</color>
 
     <color name="overlay_dark_10">#1A000000</color>
     <color name="overlay_dark_20">#33000000</color>
