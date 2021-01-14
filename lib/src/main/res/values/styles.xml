@@ -283,6 +283,11 @@
         <item name="android:textSize">@dimen/h3</item>
     </style>
 
+    <style name="MyTextInputEditText.Disable" parent="MyTextInputEditText">
+        <item name="android:editable">false</item>
+        <item name="android:inputType">none</item>
+    </style>
+
     <style name="MyBottomNavigationView" parent="BaseTextView">
         <item name="itemIconTint">@color/colorPrimary</item>
         <item name="itemTextColor">@color/colorPrimary</item>
