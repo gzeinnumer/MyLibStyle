@@ -3,9 +3,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">?attr/colorPrimary</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDark</item>
+        <item name="colorAccent">?attr/colorAccent</item>
     </style>
 
     <style name="BaseTextView">
@@ -190,33 +190,35 @@
         <item name="android:textColor">@color/text_content</item>
         <item name="android:textSize">@dimen/h3</item>
     </style>
-
     <style name="MyTextContent.Grey" parent="MyTextContent">
         <item name="android:textColor">@color/grey_text</item>
     </style>
-
-    <style name="MyTextContent.Grey.Small" parent="MyTextContent">
-        <item name="android:textColor">@color/grey_text</item>
-        <item name="android:textSize">@dimen/h4</item>
-    </style>
-
-    <style name="MyTextContent.Grey.Small.Very" parent="MyTextContent">
-        <item name="android:textColor">@color/grey_text</item>
-        <item name="android:textSize">@dimen/h5</item>
-    </style>
-
     <style name="MyTextContent.Grey.Light" parent="MyTextContent">
         <item name="android:textColor">@color/grey_light_text</item>
     </style>
 
-    <style name="MyTextContent.Grey.Light.Small" parent="MyTextContent">
-        <item name="android:textColor">@color/grey_light_text</item>
+    <style name="MyTextContent.Small" parent="MyTextContent">
         <item name="android:textSize">@dimen/h4</item>
     </style>
-
-    <style name="MyTextContent.Grey.Light.Small.Very" parent="MyTextContent">
+    <style name="MyTextContent.Small.Grey" parent="MyTextContent">
+        <item name="android:textSize">@dimen/h4</item>
+        <item name="android:textColor">@color/grey_text</item>
+    </style>
+    <style name="MyTextContent.Small.Grey.Light" parent="MyTextContent">
+        <item name="android:textSize">@dimen/h4</item>
         <item name="android:textColor">@color/grey_light_text</item>
+    </style>
+
+    <style name="MyTextContent.Small.Very" parent="MyTextContent">
         <item name="android:textSize">@dimen/h5</item>
+    </style>
+    <style name="MyTextContent.Small.Very.Grey" parent="MyTextContent">
+        <item name="android:textSize">@dimen/h5</item>
+        <item name="android:textColor">@color/grey_text</item>
+    </style>
+    <style name="MyTextContent.Small.Very.Grey.Light" parent="MyTextContent">
+        <item name="android:textSize">@dimen/h5</item>
+        <item name="android:textColor">@color/grey_light_text</item>
     </style>
 
     <style name="MyTextInputLayoutOutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
