@@ -35,7 +35,7 @@ allprojects {
 dependencies {
   ...
   implementation 'com.github.gzeinnumer:MyLibStyle:version'
-    implementation 'com.google.android.material:material:1.2.1'
+  implementation 'com.google.android.material:material:1.2.1'
 }
 ```
 
