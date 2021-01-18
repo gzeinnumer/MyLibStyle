@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-    <a><img src="https://img.shields.io/badge/Version-0.1.3-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-0.1.4-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
@@ -74,6 +74,11 @@ dependencies {
 ```xml
 <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
     <!-- Customize your theme here. -->
+
+    <!-- here is the default color. -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
 </style>
 ```
 
@@ -968,6 +973,8 @@ Preview:
 - **0.1.2**
   - Add More Style
 - **0.1.3**
+  - Add More Style
+- **0.1.4**
   - Add More Style
 
 ---
