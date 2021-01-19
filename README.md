@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-    <a><img src="https://img.shields.io/badge/Version-0.1.4-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-0.1.5-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
@@ -76,6 +76,16 @@ dependencies {
     <!-- Customize your theme here. -->
 </style>
 ```
+
+If you want to change default color, add value to `res/color.xml`
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+</resources>
+``
 
 **Notes. You can custom all style, example :**
 
@@ -971,6 +981,8 @@ Preview:
   - Add More Style
 - **0.1.4**
   - Add More Style
+- **0.1.5**
+  - Bug Fixing
 
 ---
 
