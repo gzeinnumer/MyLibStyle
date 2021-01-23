@@ -7,4 +7,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="BaseTextView">
+        <item name="android:fontFamily">@font/test_font</item>
+    </style>
+
+    <style name="BaseTextView.Bold" parent="BaseTextView">
+        <item name="android:fontFamily">@font/test_font</item>
+    </style>
+
+    <style name="BaseTextView.Italic" parent="BaseTextView">
+        <item name="android:fontFamily">@font/test_font</item>
+    </style>
+
+    <style name="BaseTextView.Bold.Italic" parent="BaseTextView">
+        <item name="android:fontFamily">@font/test_font</item>
+    </style>
+
 </resources>
