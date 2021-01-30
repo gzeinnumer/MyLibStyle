@@ -77,16 +77,6 @@ dependencies {
 </style>
 ```
 
-If you want to change default color, add value to `res/color.xml`
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
-</resources>
-```
-
 If you want to change default font, add `custom_font.ttf` to your `res` directory `res->font`.
 Than add this `style` to your `style.xml`/`themes.xml`
 ```xml
@@ -129,6 +119,16 @@ Than add this `style` to your `style.xml`/`themes.xml`
 <style name="MyButtonIcon" parent="Widget.MaterialComponents.Button.Icon">
     <item name="android:fontFamily">@font/test_font</item>
 </style>
+```
+
+If you want to change default color, add value to `res/color.xml`
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+</resources>
 ```
 
 **Notes. You can custom all style, example :**
