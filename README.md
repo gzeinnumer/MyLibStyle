@@ -90,6 +90,12 @@ If you want to change default color, add value to `res/color.xml`
 If you want to change default font, add `custom_font.ttf` to your `res` directory `res->font`.
 Than add this `style` to your `style.xml`/`themes.xml`
 ```xml
+<!-- Base application theme. -->
+<style name="Theme.MyLibsTesting" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <item name="android:fontFamily">@font/test_font</item>
+</style>
+
+<!-- Change TextView Font -->
 <style name="BaseTextView">
     <item name="android:fontFamily">@font/test_font</item>
 </style>
