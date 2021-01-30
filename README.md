@@ -91,6 +91,7 @@ If you want to change default font, add `custom_font.ttf` to your `res` director
 Than add this `style` to your `style.xml`/`themes.xml`
 ```xml
 <!-- Base application theme. -->
+<!-- Change Base Font -->
 <style name="Theme.MyLibsTesting" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
     <item name="android:fontFamily">@font/test_font</item>
 </style>
