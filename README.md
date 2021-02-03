@@ -20,7 +20,7 @@
 
 ---
 
-## Download
+## Download Code/App
 Add maven `jitpack.io` and `dependencies` in `build.gradle (Project)` :
 ```gradle
 // build.gradle project
