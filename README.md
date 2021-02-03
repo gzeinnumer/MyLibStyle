@@ -6,11 +6,16 @@
     <a><img src="https://img.shields.io/badge/Version-0.1.5-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
-    <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
+    <a><img src="https://img.shields.io/badge/kotlin-Suport-green?logo=kotlin&style=flat"></a>
     <a href="https://github.com/gzeinnumer"><img src="https://img.shields.io/github/followers/gzeinnumer?label=follow&style=social"></a>
     <br>
     <p>Simple way to use Material.io</p>
 </div>
+
+---
+
+|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example3.jpg)|
+|--|--|--|
 
 ---
 # Content List
@@ -18,14 +23,8 @@
 * [Feature List](#feature-list)
 * [Tech stack and 3rd library](#tech-stack-and-3rd-library)
 * [Usage](#usage)
-* [Example Code/App](#example-codeapp)
 * [Version](#version)
 * [Contribution](#contribution)
-
----
-
-|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example3.jpg)|
-|--|--|--|
 
 ---
 # Download
