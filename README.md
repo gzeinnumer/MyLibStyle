@@ -6,7 +6,7 @@
     <a><img src="https://img.shields.io/badge/Version-0.1.5-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
-    <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
+    <a><img src="https://img.shields.io/badge/kotlin-Suport-green?logo=kotlin&style=flat"></a>
     <a href="https://github.com/gzeinnumer"><img src="https://img.shields.io/github/followers/gzeinnumer?label=follow&style=social"></a>
     <br>
     <p>Simple way to use Material.io</p>
@@ -14,13 +14,20 @@
 
 ---
 
-**FullExample.**
 |![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/MyLibStyle/blob/master/assets/example3.jpg)|
 |--|--|--|
 
 ---
+# Content List
+* [Download](#download)
+* [Feature List](#feature-list)
+* [Tech stack and 3rd library](#tech-stack-and-3rd-library)
+* [Usage](#usage)
+* [Version](#version)
+* [Contribution](#contribution)
 
-## Download
+---
+# Download
 Add maven `jitpack.io` and `dependencies` in `build.gradle (Project)` :
 ```gradle
 // build.gradle project
@@ -39,7 +46,8 @@ dependencies {
 }
 ```
 
-## Feature List
+---
+# Feature List
 - [x] TextView
 - [x] TextInputLayout
 - [x] TextInputEditText
@@ -64,10 +72,12 @@ dependencies {
 - [x] Popup
 - [x] Dialog ([DOCS](https://github.com/gzeinnumer/MyLibDialog))
 
-## Tech stack and 3rd library
+---
+# Tech stack and 3rd library
 - Material.io ([docs](https://material.io/develop/android/docs/getting-started))
 
 ---
+# Usage
 
 **First Step**. Use `MaterialComponents` in `style.xml` with change parent of `AppTheme` :
 
@@ -162,8 +172,7 @@ Preview:
 |--|--|
 |Default|Custom|
 
----
-## USE
+#
 
 **MyAppbarLayout.**
 ```xml
@@ -1006,7 +1015,7 @@ Preview:
 
 ---
 
-### Version
+## Version
 - **0.0.3**
   - First Release
 - **0.0.6**
@@ -1030,8 +1039,8 @@ Preview:
 
 ---
 
-### Contribution
-You can sent your constibution to `branche` `open-pull`.
+## Contribution
+You can sent your constibution to `branch` `open-pull`.
 
 ---
 
