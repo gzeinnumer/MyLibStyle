@@ -5,7 +5,7 @@
 
 # I Am Not Using This Library AnyMore
 
-Please Use This [SimpleMaterialStyle](https://github.com/gzeinnumer/SimpleMaterialStyle)
+# Please Use This [SimpleMaterialStyle](https://github.com/gzeinnumer/SimpleMaterialStyle)
 
 ---
 
